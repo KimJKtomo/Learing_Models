@@ -1,6 +1,6 @@
-# 📘 {MODEL_NAME}
+# 📘 Learing Models
 
-해당 디렉토리는 **{MODEL_NAME}** 기반 딥러닝 모델 실험을 정리한
+해당 디렉토리는 **Learing Models** 딥러닝 모델 실험을 정리한
 공간이다.\
 모델 구조, 학습 스크립트, 파라미터 설정, 전처리, 평가 지표,
 시각화(GradCAM·ROC·Confusion Matrix 등)를 포함한다.
