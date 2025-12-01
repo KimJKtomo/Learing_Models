@@ -1,0 +1,3 @@
+[submodule "CNN/pytorch-image-model"]
+	path = CNN/pytorch-image-model
+	url = https://github.com/huggingface/pytorch-image-models
