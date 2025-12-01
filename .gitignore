@@ -97,16 +97,16 @@ mvtec_ad_2/
 # ------------------------
 
 # MVTec converted dataset
-CNN/mvtec_exp/*_cls/
-CNN/mvtec_exp/*_cls/
+#CNN/mvtec_exp/*_cls/
+#CNN/mvtec_exp/*_cls/
 
 # Sample images & CAM outputs
-CNN/mvtec_exp/sample_images/
-CNN/mvtec_exp/sample_cam/
+#CNN/mvtec_exp/sample_images/
+#CNN/mvtec_exp/sample_cam/
 
 # Training outputs inside mvtec_exp
-CNN/mvtec_exp/results/
-CNN/mvtec_exp/output/
+#CNN/mvtec_exp/results/
+#CNN/mvtec_exp/output/
 
 # ------------------------
 # Submodule handling
