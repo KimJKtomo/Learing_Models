@@ -1,0 +1,9 @@
+category,train_good,train_defect,val_good,val_defect,best_epoch,best_val_top1,best_val_loss,results_dir
+can,412,62,118,28,5,82.1917808219178,0.4353951230032803,/home/kimgk3793/바탕화면/Learning_Models/CNN/pytorch-image-models/results/convnextv2_can_mvtecad2
+fabric,387,62,109,28,28,97.81021925654724,0.11244714020812599,/home/kimgk3793/바탕화면/Learning_Models/CNN/pytorch-image-models/results/convnextv2_fabric_mvtecad2
+fruit_jelly,263,42,57,18,40,100.0,0.053563232421875,/home/kimgk3793/바탕화면/Learning_Models/CNN/pytorch-image-models/results/convnextv2_fruit_jelly_mvtecad2
+rice,313,62,77,28,37,74.28571446736653,0.7760576543353853,/home/kimgk3793/바탕화면/Learning_Models/CNN/pytorch-image-models/results/convnextv2_rice_mvtecad2
+sheet_metal,137,62,43,28,8,84.50704300571495,0.3887741741999774,/home/kimgk3793/바탕화면/Learning_Models/CNN/pytorch-image-models/results/convnextv2_sheet_metal_mvtecad2
+vial,291,73,76,32,40,100.0,0.05947113037109375,/home/kimgk3793/바탕화면/Learning_Models/CNN/pytorch-image-models/results/convnextv2_vial_mvtecad2
+wallplugs,293,62,93,28,32,94.21487603305785,0.17053891311992297,/home/kimgk3793/바탕화면/Learning_Models/CNN/pytorch-image-models/results/convnextv2_wallplugs_mvtecad2
+walnuts,432,62,108,28,27,100.0,0.06302620382869945,/home/kimgk3793/바탕화면/Learning_Models/CNN/pytorch-image-models/results/convnextv2_walnuts_mvtecad2
