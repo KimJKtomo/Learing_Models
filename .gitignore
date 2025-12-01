@@ -1,93 +1,127 @@
-###########################################################
-# Python 기본
-###########################################################
+# ------------------------
+# Python 일반 ignore
+# ------------------------
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.pkl
-*.pt
-*.pth
-*.pth.tar
-*.tar
-
-###########################################################
-# OS / IDE
-###########################################################
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-###########################################################
-# 빌드/로그/캐시
-###########################################################
-logs/
+*.so
 *.log
-wandb/
-mlruns/
-*.swp
-tmp/
-temp/
 *.tmp
-*.cache
-*.bak
 
-###########################################################
-# 이미지 파일 (대량 발생하는 이미지 자동 제외)
-###########################################################
-*.png
-*.jpg
-*.jpeg
-*.bmp
-*.tiff
-*.tif
-*.gif
-
-###########################################################
-# CNN 프로젝트 내 대용량 데이터/출력 제외
-###########################################################
-
-# MVTec AD2 원본 데이터
-CNN/mvtec_exp/mvtec_ad_2/
-
-# ImageFolder 변환 데이터 (train/val 생성본)
-CNN/mvtec_exp/*_cls/
-
-# timm 학습 결과 (model_best, checkpoint-*, sample_images, sample_cam 등)
-CNN/pytorch-image-models/results/
-
-# timm 내부 .git (중첩 방지)
-CNN/pytorch-image-models/.git/
-
-###########################################################
-# 기타 제외해야 할 경로
-###########################################################
-
-# Python venv
+# virtual env
+.venv/
 env/
 venv/
-.venv/
-*/env/
-*/venv/
-*/.venv/
+*.env
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Shell history / 민감정보
-*.sh_history
-*.bash_history
-token.txt
-keys.json
+# ------------------------
+# OS / IDE
+# ------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
 
-###########################################################
-# 백업/압축 파일
-###########################################################
+# ------------------------
+# Build / package
+# ------------------------
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ------------------------
+# Checkpoints / model outputs
+# ------------------------
+*.pth
+*.pth.tar
+*.ckpt
+*.pt
+*.h5
+*.onnx
+
+# TIMM train logs
+events.out.tfevents.*
+
+# ------------------------
+# Experiment results
+# ------------------------
+results/
+runs/
+outputs/
+logs/
+checkpoints/
+weights/
+exp/
+exp*/
+
+# ------------------------
+# Images / datasets
+# ------------------------
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.gif
+
+# except repository guide images
+!docs/*.png
+!docs/images/*
+
+# raw datasets
+dataset/
+datasets/
+data/
+mvtec_exp/mvtec_ad_2/
+mvtec_ad_2/
+
+# ------------------------
+# Archive files
+# ------------------------
 *.zip
-*.7z
+*.tar
 *.tar.gz
-*.rar
+*.7z
 
+# ------------------------
+# CNN / MVTec custom exclusions
+# ------------------------
 
-CNN/pytorch-image-models/
+# MVTec converted dataset
+CNN/mvtec_exp/*_cls/
+CNN/mvtec_exp/*_cls/
+
+# Sample images & CAM outputs
+CNN/mvtec_exp/sample_images/
+CNN/mvtec_exp/sample_cam/
+
+# Training outputs inside mvtec_exp
+CNN/mvtec_exp/results/
+CNN/mvtec_exp/output/
+
+# ------------------------
+# Submodule handling
+# ------------------------
+
+# Ignore internal files of pytorch-image-models
+# (we only want it as a submodule, not full tracking)
+CNN/pytorch-image-models/*
+!CNN/pytorch-image-models/.git
+!CNN/pytorch-image-models/.gitmodules
+
+# ------------------------
+# Misc
+# ------------------------
+*.bak
+*.old
+*.orig
+
