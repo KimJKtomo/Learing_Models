@@ -1,0 +1,11 @@
+[SCAN] AP_age0_val
+  csv: out_mil_0102_v3/AP/age_splits/AP_age0_val.csv
+  rows: 108
+  image_exists_rate: 1.0000
+  label_exists_rate: 1.0000
+  empty_label_rate: 0.0000
+  fracture_class_id: 3
+  pos_n: 87 | pos_has_fracture_bbox_rate: 1.0000 | pos_miss_rate: 0.0000
+  neg_n: 21 | neg_yolo_fp_rate: 0.0000 | neg_has_other_box_rate: 0.0000 | neg_has_text_box_rate: 1.0000
+  dup_filstems: 0
+  class_counts_all (top 20): [(3, 140), (5, 26), (7, 1), (8, 122)]

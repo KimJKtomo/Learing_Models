@@ -108,6 +108,10 @@ mvtec_ad_2/
 #CNN/mvtec_exp/results/
 #CNN/mvtec_exp/output/
 
+3DGS/SinNeRF/
+3DGS/SpineCT/
+
+
 # ------------------------
 # Submodule handling
 # ------------------------

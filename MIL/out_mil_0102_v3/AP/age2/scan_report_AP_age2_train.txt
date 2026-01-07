@@ -1,0 +1,11 @@
+[SCAN] AP_age2_train
+  csv: out_mil_0102_v3/AP/age_splits/AP_age2_train.csv
+  rows: 3750
+  image_exists_rate: 1.0000
+  label_exists_rate: 1.0000
+  empty_label_rate: 0.0005
+  fracture_class_id: 3
+  pos_n: 2263 | pos_has_fracture_bbox_rate: 1.0000 | pos_miss_rate: 0.0000
+  neg_n: 1487 | neg_yolo_fp_rate: 0.0000 | neg_has_other_box_rate: 0.0202 | neg_has_text_box_rate: 0.9987
+  dup_filstems: 0
+  class_counts_all (top 20): [(0, 41), (1, 18), (3, 3481), (5, 655), (6, 2), (7, 21), (8, 4457)]

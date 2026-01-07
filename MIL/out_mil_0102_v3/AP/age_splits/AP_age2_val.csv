@@ -1,0 +1,938 @@
+filestem,patient_id,study_number,timehash,gender,age,laterality,projection,initial_exam,ao_classification,cast,diagnosis_uncertain,osteopenia,fracture_visible,metal,pixel_spacing,device_manufacturer,label,age_group_label,image_path,age_group
+3152_0816786797_01_WRI-R1_F011,3152,1,816786797,F,11.0,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3152_0816786797_01_WRI-R1_F011.png,2
+3924_0594487597_02_WRI-L1_M010,3924,2,594487597,M,10.5,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3924_0594487597_02_WRI-L1_M010.png,2
+5089_0951159477_02_WRI-R1_M012,5089,2,951159477,M,12.9,R,1,,23-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5089_0951159477_02_WRI-R1_M012.png,2
+3450_1048708531_03_WRI-R1_M010,3450,3,1048708531,M,10.2,R,1,,23r-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3450_1048708531_03_WRI-R1_M010.png,2
+1121_0491752580_01_WRI-L1_M014,1121,1,491752580,M,14.3,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1121_0491752580_01_WRI-L1_M014.png,2
+2348_0822300238_01_WRI-L1_F011,2348,1,822300238,F,11.6,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2348_0822300238_01_WRI-L1_F011.png,2
+4465_0416575331_01_WRI-L1_F014,4465,1,416575331,F,14.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4465_0416575331_01_WRI-L1_F014.png,2
+0105_0781849105_01_WRI-L1_F012,105,1,781849105,F,12.4,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0105_0781849105_01_WRI-L1_F012.png,2
+2034_0618166591_03_WRI-L1_M010,2034,3,618166591,M,10.5,L,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2034_0618166591_03_WRI-L1_M010.png,2
+3413_1147141877_03_WRI-R1_F010,3413,3,1147141877,F,10.6,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3413_1147141877_03_WRI-R1_F010.png,2
+4009_0879966262_01_WRI-L1_M014,4009,1,879966262,M,14.4,L,1,1.0,22r-D/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4009_0879966262_01_WRI-L1_M014.png,2
+1268_0508060365_01_WRI-R1_M010,1268,1,508060365,M,10.7,R,1,1.0,23r-M/2.1,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1268_0508060365_01_WRI-R1_M010.png,2
+3864_1046443058_02_WRI-L1_M012,3864,2,1046443058,M,12.9,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3864_1046443058_02_WRI-L1_M012.png,2
+4218_0261477208_01_WRI-L1_M013,4218,1,261477208,M,13.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4218_0261477208_01_WRI-L1_M013.png,2
+2877_1116561995_04_WRI-R1_M014,2877,4,1116561995,M,14.4,R,1,,23r-M/3.1; 22u-D/4.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2877_1116561995_04_WRI-R1_M014.png,2
+5869_0885986895_03_WRI-R1_M011,5869,3,885986895,M,11.9,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5869_0885986895_03_WRI-R1_M011.png,2
+3986_1039426398_01_WRI-L1_F012,3986,1,1039426398,F,12.6,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3986_1039426398_01_WRI-L1_F012.png,2
+3788_1232522695_01_WRI-L1_M014,3788,1,1232522695,M,14.5,L,1,,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3788_1232522695_01_WRI-L1_M014.png,2
+1093_0789636568_01_WRI-L1_F010,1093,1,789636568,F,10.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1093_0789636568_01_WRI-L1_F010.png,2
+4435_0480661094_05_WRI-R1_M012,4435,5,480661094,M,12.4,R,1,,23r-E/2.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4435_0480661094_05_WRI-R1_M012.png,2
+4095_0864480580_01_WRI-L1_M010,4095,1,864480580,M,10.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4095_0864480580_01_WRI-L1_M010.png,2
+5665_0717865202_01_WRI-R1_M013,5665,1,717865202,M,13.6,R,1,1.0,76.2.A,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5665_0717865202_01_WRI-R1_M013.png,2
+4817_0932299254_03_WRI-L1_M010,4817,3,932299254,M,10.7,L,1,,23r-E/2.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4817_0932299254_03_WRI-L1_M010.png,2
+3081_1009722689_06_WRI-L1_M012,3081,6,1009722689,M,12.0,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3081_1009722689_06_WRI-L1_M012.png,2
+0190_0856110939_03_WRI-R1_M013,190,3,856110939,M,13.6,R,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0190_0856110939_03_WRI-R1_M013.png,2
+1169_0969549052_01_WRI-R1_F013,1169,1,969549052,F,13.4,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1169_0969549052_01_WRI-R1_F013.png,2
+4766_1175069345_01_WRI-L1_M013,4766,1,1175069345,M,13.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4766_1175069345_01_WRI-L1_M013.png,2
+0065_1040588164_01_WRI-L1_F011,65,1,1040588164,F,11.4,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0065_1040588164_01_WRI-L1_F011.png,2
+5811_0263898831_01_WRI-L1_F011,5811,1,263898831,F,11.6,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5811_0263898831_01_WRI-L1_F011.png,2
+1368_0788547827_01_WRI-R1_F010,1368,1,788547827,F,10.5,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1368_0788547827_01_WRI-R1_F010.png,2
+5831_0761104540_02_WRI-L1_M013,5831,2,761104540,M,13.9,L,1,,23r-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5831_0761104540_02_WRI-L1_M013.png,2
+3346_1092609627_01_WRI-R1_M012,3346,1,1092609627,M,12.5,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3346_1092609627_01_WRI-R1_M012.png,2
+5413_0528824624_01_WRI-L1_M014,5413,1,528824624,M,14.8,L,1,1.0,23-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5413_0528824624_01_WRI-L1_M014.png,2
+0640_0442148783_06_WRI-L1_F011,640,6,442148783,F,11.3,L,1,,,,1.0,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0640_0442148783_06_WRI-L1_F011.png,2
+0452_0672469190_01_WRI-R1_M011,452,1,672469190,M,11.9,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0452_0672469190_01_WRI-R1_M011.png,2
+3853_1028288828_02_WRI-L1_M014,3853,2,1028288828,M,14.4,L,1,,23r-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3853_1028288828_02_WRI-L1_M014.png,2
+0279_0972195381_01_WRI-R1_F011,279,1,972195381,F,11.7,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0279_0972195381_01_WRI-R1_F011.png,2
+2768_0461969055_02_WRI-R1_M014,2768,2,461969055,M,14.9,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2768_0461969055_02_WRI-R1_M014.png,2
+2428_0323521081_02_WRI-L1_M012,2428,2,323521081,M,12.8,L,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2428_0323521081_02_WRI-L1_M012.png,2
+4625_1025941493_01_WRI-L1_F013,4625,1,1025941493,F,13.2,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4625_1025941493_01_WRI-L1_F013.png,2
+3766_0876845181_01_WRI-L1_M013,3766,1,876845181,M,13.4,L,1,1.0,23r-M/3.1; 23u-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3766_0876845181_01_WRI-L1_M013.png,2
+1901_0944956374_04_WRI-L1_F011,1901,4,944956374,F,11.7,L,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1901_0944956374_04_WRI-L1_F011.png,2
+0314_1049993103_01_WRI-R1_M014,314,1,1049993103,M,14.6,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0314_1049993103_01_WRI-R1_M014.png,2
+3251_1055078310_01_WRI-L1_M013,3251,1,1055078310,M,13.2,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3251_1055078310_01_WRI-L1_M013.png,2
+0687_0609755098_02_WRI-L1_F010,687,2,609755098,F,10.2,L,1,,23r-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0687_0609755098_02_WRI-L1_F010.png,2
+2220_0316189403_01_WRI-L1_M014,2220,1,316189403,M,14.4,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2220_0316189403_01_WRI-L1_M014.png,2
+2111_1184413808_01_WRI-L1_M012,2111,1,1184413808,M,12.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2111_1184413808_01_WRI-L1_M012.png,2
+4460_0613416392_02_WRI-L1_M014,4460,2,613416392,M,14.9,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4460_0613416392_02_WRI-L1_M014.png,2
+1214_0757300933_01_WRI-L1_M013,1214,1,757300933,M,13.2,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1214_0757300933_01_WRI-L1_M013.png,2
+0340_0842481224_01_WRI-L1_M010,340,1,842481224,M,10.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0340_0842481224_01_WRI-L1_M010.png,2
+3807_0384249758_01_WRI-L1_M014,3807,1,384249758,M,14.2,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3807_0384249758_01_WRI-L1_M014.png,2
+3403_1045425671_01_WRI-L1_M014,3403,1,1045425671,M,14.5,L,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3403_1045425671_01_WRI-L1_M014.png,2
+0819_0768805502_02_WRI-L1_F012,819,2,768805502,F,12.2,L,1,,23r-E/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0819_0768805502_02_WRI-L1_F012.png,2
+3092_0373599504_01_WRI-L1_F010,3092,1,373599504,F,10.7,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3092_0373599504_01_WRI-L1_F010.png,2
+5155_0619233623_01_WRI-L1_M013,5155,1,619233623,M,13.8,L,1,,23-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5155_0619233623_01_WRI-L1_M013.png,2
+3593_1054779044_02_WRI-R1_F011,3593,2,1054779044,F,11.3,R,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3593_1054779044_02_WRI-R1_F011.png,2
+4231_0237139576_01_WRI-L1_M012,4231,1,237139576,M,12.6,L,1,,23r-M/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4231_0237139576_01_WRI-L1_M012.png,2
+4634_1090111319_01_WRI-L1_M011,4634,1,1090111319,M,11.3,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4634_1090111319_01_WRI-L1_M011.png,2
+5040_1018726926_01_WRI-L1_F011,5040,1,1018726926,F,11.1,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5040_1018726926_01_WRI-L1_F011.png,2
+0837_0990326356_01_WRI-L1_M013,837,1,990326356,M,13.6,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0837_0990326356_01_WRI-L1_M013.png,2
+1394_0535873693_01_WRI-R1_M013,1394,1,535873693,M,13.6,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1394_0535873693_01_WRI-R1_M013.png,2
+4106_0958521483_01_WRI-L1_M013,4106,1,958521483,M,13.7,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4106_0958521483_01_WRI-L1_M013.png,2
+3186_0554549800_01_WRI-R1_M010,3186,1,554549800,M,10.7,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3186_0554549800_01_WRI-R1_M010.png,2
+3924_0596045989_04_WRI-L1_M010,3924,4,596045989,M,10.6,L,1,,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3924_0596045989_04_WRI-L1_M010.png,2
+2798_0220942429_01_WRI-L1_M010,2798,1,220942429,M,10.4,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2798_0220942429_01_WRI-L1_M010.png,2
+5153_1032338638_01_WRI-L1_M014,5153,1,1032338638,M,14.2,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5153_1032338638_01_WRI-L1_M014.png,2
+4197_0696212350_03_WRI-R1_M012,4197,3,696212350,M,12.9,R,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4197_0696212350_03_WRI-R1_M012.png,2
+0424_1002614166_01_WRI-L1_M011,424,1,1002614166,M,11.6,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0424_1002614166_01_WRI-L1_M011.png,2
+2551_0800141137_01_WRI-L1_M014,2551,1,800141137,M,14.5,L,1,,22r-D/4.1; 23u-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2551_0800141137_01_WRI-L1_M014.png,2
+2520_0523876655_06_WRI-L1_F010,2520,6,523876655,F,10.2,L,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2520_0523876655_06_WRI-L1_F010.png,2
+2190_0801660901_03_WRI-L1_M012,2190,3,801660901,M,12.3,L,1,,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2190_0801660901_03_WRI-L1_M012.png,2
+3382_0441012066_01_WRI-R1_F010,3382,1,441012066,F,10.2,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3382_0441012066_01_WRI-R1_F010.png,2
+1375_0307850493_02_WRI-L1_M011,1375,2,307850493,M,11.1,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1375_0307850493_02_WRI-L1_M011.png,2
+5719_0823494342_01_WRI-R1_F011,5719,1,823494342,F,11.9,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5719_0823494342_01_WRI-R1_F011.png,2
+4366_0933766375_01_WRI-L1_F010,4366,1,933766375,F,10.1,L,1,1.0,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4366_0933766375_01_WRI-L1_F010.png,2
+4969_0205522935_01_WRI-L1_F010,4969,1,205522935,F,10.1,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4969_0205522935_01_WRI-L1_F010.png,2
+0154_1139950395_03_WRI-R1_M011,154,3,1139950395,M,11.5,R,1,,23r-M/3.1; 23u-E/7,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0154_1139950395_03_WRI-R1_M011.png,2
+5453_0961880630_05_WRI-L1_F011,5453,5,961880630,F,11.9,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5453_0961880630_05_WRI-L1_F011.png,2
+2695_0523483184_01_WRI-R1_M013,2695,1,523483184,M,13.5,R,1,1.0,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2695_0523483184_01_WRI-R1_M013.png,2
+4776_1093409603_01_WRI-R1_M012,4776,1,1093409603,M,12.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4776_1093409603_01_WRI-R1_M012.png,2
+2615_1194274247_04_WRI-R1_M011,2615,4,1194274247,M,11.9,R,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2615_1194274247_04_WRI-R1_M011.png,2
+3738_1112310743_02_WRI-R1_F010,3738,2,1112310743,F,10.9,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3738_1112310743_02_WRI-R1_F010.png,2
+2945_0447567715_01_WRI-L1_F010,2945,1,447567715,F,10.2,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2945_0447567715_01_WRI-L1_F010.png,2
+2759_0694037024_01_WRI-R1_M013,2759,1,694037024,M,13.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2759_0694037024_01_WRI-R1_M013.png,2
+4055_0362682248_01_WRI-L1_M010,4055,1,362682248,M,10.7,L,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4055_0362682248_01_WRI-L1_M010.png,2
+5701_0910516313_03_WRI-R1_F010,5701,3,910516313,F,10.8,R,1,,23-E/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5701_0910516313_03_WRI-R1_F010.png,2
+5053_0957761784_01_WRI-L1_M012,5053,1,957761784,M,12.5,L,1,1.0,23-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5053_0957761784_01_WRI-L1_M012.png,2
+2385_0844222445_01_WRI-L1_F013,2385,1,844222445,F,13.1,L,1,,23u-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2385_0844222445_01_WRI-L1_F013.png,2
+0190_0855594187_02_WRI-R1_M013,190,2,855594187,M,13.6,R,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0190_0855594187_02_WRI-R1_M013.png,2
+3465_0350696365_01_WRI-L1_M012,3465,1,350696365,M,12.4,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3465_0350696365_01_WRI-L1_M012.png,2
+4293_0201262979_04_WRI-L1_M013,4293,4,201262979,M,13.0,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4293_0201262979_04_WRI-L1_M013.png,2
+5304_1195867141_01_WRI-L1_M012,5304,1,1195867141,M,12.2,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5304_1195867141_01_WRI-L1_M012.png,2
+3598_1077606178_07_WRI-R1_M010,3598,7,1077606178,M,10.2,R,1,,23-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3598_1077606178_07_WRI-R1_M010.png,2
+1896_0533074358_01_WRI-R1_M011,1896,1,533074358,M,11.8,R,1,1.0,23r-E/2.1; 23u-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1896_0533074358_01_WRI-R1_M011.png,2
+4132_0806224503_01_WRI-L1_F012,4132,1,806224503,F,12.2,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4132_0806224503_01_WRI-L1_F012.png,2
+1770_0806197017_05_WRI-R1_M013,1770,5,806197017,M,13.5,R,1,,22r-D/4.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1770_0806197017_05_WRI-R1_M013.png,2
+3994_0482388942_01_WRI-L1_M010,3994,1,482388942,M,10.9,L,1,1.0,23r-E/2.1; 23u-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3994_0482388942_01_WRI-L1_M010.png,2
+0243_0176233415_01_WRI-L1_M012,243,1,176233415,M,12.8,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0243_0176233415_01_WRI-L1_M012.png,2
+4816_0833300455_01_WRI-R1_M011,4816,1,833300455,M,11.2,R,1,1.0,,,1.0,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4816_0833300455_01_WRI-R1_M011.png,2
+3290_0586674635_01_WRI-R1_M010,3290,1,586674635,M,10.3,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3290_0586674635_01_WRI-R1_M010.png,2
+2291_0583771750_01_WRI-R1_M014,2291,1,583771750,M,14.6,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2291_0583771750_01_WRI-R1_M014.png,2
+2063_1150550071_03_WRI-R1_M014,2063,3,1150550071,M,14.1,R,1,,23r-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2063_1150550071_03_WRI-R1_M014.png,2
+3297_0713840687_01_WRI-R1_F012,3297,1,713840687,F,12.2,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3297_0713840687_01_WRI-R1_F012.png,2
+3096_1223238007_01_WRI-L1_F010,3096,1,1223238007,F,10.2,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3096_1223238007_01_WRI-L1_F010.png,2
+2991_0653122196_02_WRI-R1_M013,2991,2,653122196,M,13.2,R,1,,23r-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2991_0653122196_02_WRI-R1_M013.png,2
+2602_0743726272_05_WRI-L1_M014,2602,5,743726272,M,14.0,L,1,,23-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2602_0743726272_05_WRI-L1_M014.png,2
+0645_0579731923_01_WRI-L1_M011,645,1,579731923,M,11.8,L,1,1.0,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0645_0579731923_01_WRI-L1_M011.png,2
+2622_0694722474_01_WRI-L1_F012,2622,1,694722474,F,12.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2622_0694722474_01_WRI-L1_F012.png,2
+0661_0227737042_01_WRI-R1_F011,661,1,227737042,F,11.6,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0661_0227737042_01_WRI-R1_F011.png,2
+5066_1052239162_01_WRI-L1_M011,5066,1,1052239162,M,11.5,L,1,,23r-M/3.1; 23u-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5066_1052239162_01_WRI-L1_M011.png,2
+4207_1170248515_01_WRI-R1_F011,4207,1,1170248515,F,11.9,R,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4207_1170248515_01_WRI-R1_F011.png,2
+0130_0262366841_02_WRI-L1_M014,130,2,262366841,M,14.3,L,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0130_0262366841_02_WRI-L1_M014.png,2
+4933_1287513487_01_WRI-L1_F012,4933,1,1287513487,F,12.1,L,1,1.0,22-D/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4933_1287513487_01_WRI-L1_F012.png,2
+5800_0825107507_01_WRI-L1_M011,5800,1,825107507,M,11.8,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5800_0825107507_01_WRI-L1_M011.png,2
+4130_0444122163_01_WRI-L1_F012,4130,1,444122163,F,12.6,L,1,1.0,,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4130_0444122163_01_WRI-L1_F012.png,2
+1998_0236227433_01_WRI-R1_F014,1998,1,236227433,F,14.2,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1998_0236227433_01_WRI-R1_F014.png,2
+4444_0981398212_01_WRI-R1_F013,4444,1,981398212,F,13.6,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4444_0981398212_01_WRI-R1_F013.png,2
+0818_0571314867_03_WRI-R1_M013,818,3,571314867,M,13.4,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0818_0571314867_03_WRI-R1_M013.png,2
+1009_1045147842_04_WRI-R1_M013,1009,4,1045147842,M,13.3,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1009_1045147842_04_WRI-R1_M013.png,2
+5415_0989202797_01_WRI-L1_F014,5415,1,989202797,F,14.8,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5415_0989202797_01_WRI-L1_F014.png,2
+2732_1155844576_01_WRI-R1_F010,2732,1,1155844576,F,10.3,R,1,1.0,,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2732_1155844576_01_WRI-R1_F010.png,2
+6089_0811034772_03_WRI-L1_M012,6089,3,811034772,M,12.9,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/6089_0811034772_03_WRI-L1_M012.png,2
+2698_0862452723_02_WRI-L1_M012,2698,2,862452723,M,12.4,L,1,,23-M/3.1,1.0,,,1.0,,0.143,Agfa,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2698_0862452723_02_WRI-L1_M012.png,2
+3432_1024238924_01_WRI-L1_F012,3432,1,1024238924,F,12.2,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3432_1024238924_01_WRI-L1_F012.png,2
+2698_0862452507_02_WRI-R1_M012,2698,2,862452507,M,12.4,R,1,,23-M/3.1,1.0,,,1.0,,0.143,Agfa,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2698_0862452507_02_WRI-R1_M012.png,2
+2080_0902169072_01_WRI-L1_F014,2080,1,902169072,F,14.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2080_0902169072_01_WRI-L1_F014.png,2
+4369_0979235870_03_WRI-L1_M012,4369,3,979235870,M,12.2,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4369_0979235870_03_WRI-L1_M012.png,2
+1832_0500482154_04_WRI-L1_M011,1832,4,500482154,M,11.1,L,1,,23r-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1832_0500482154_04_WRI-L1_M011.png,2
+4842_0332517199_01_WRI-R1_F014,4842,1,332517199,F,14.2,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4842_0332517199_01_WRI-R1_F014.png,2
+3575_0868471130_01_WRI-L1_M011,3575,1,868471130,M,11.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3575_0868471130_01_WRI-L1_M011.png,2
+4046_0618922896_01_WRI-R1_M013,4046,1,618922896,M,13.6,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4046_0618922896_01_WRI-R1_M013.png,2
+3451_0946755161_01_WRI-R1_F013,3451,1,946755161,F,13.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3451_0946755161_01_WRI-R1_F013.png,2
+4845_0581511621_01_WRI-R1_F014,4845,1,581511621,F,14.0,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4845_0581511621_01_WRI-R1_F014.png,2
+5357_0716739727_04_WRI-R1_M013,5357,4,716739727,M,13.3,R,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5357_0716739727_04_WRI-R1_M013.png,2
+1700_1170739537_08_WRI-R1_M012,1700,8,1170739537,M,12.9,R,1,,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1700_1170739537_08_WRI-R1_M012.png,2
+4897_1164178268_01_WRI-R1_F012,4897,1,1164178268,F,12.2,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4897_1164178268_01_WRI-R1_F012.png,2
+3713_0207509042_01_WRI-R1_F011,3713,1,207509042,F,11.2,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3713_0207509042_01_WRI-R1_F011.png,2
+0344_0975351782_01_WRI-L1_F012,344,1,975351782,F,12.0,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0344_0975351782_01_WRI-L1_F012.png,2
+4210_1210516417_01_WRI-L1_M014,4210,1,1210516417,M,14.5,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4210_1210516417_01_WRI-L1_M014.png,2
+0050_0619640826_01_WRI-R1_M011,50,1,619640826,M,11.4,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0050_0619640826_01_WRI-R1_M011.png,2
+3041_0941044444_01_WRI-L1_M010,3041,1,941044444,M,10.6,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3041_0941044444_01_WRI-L1_M010.png,2
+4811_0313612052_01_WRI-L1_M013,4811,1,313612052,M,13.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4811_0313612052_01_WRI-L1_M013.png,2
+2619_0414489517_02_WRI-R1_M013,2619,2,414489517,M,13.5,R,1,,23r-E/2.1; 23u-E/1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2619_0414489517_02_WRI-R1_M013.png,2
+4810_0683178845_02_WRI-L1_M011,4810,2,683178845,M,11.8,L,1,,23r-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4810_0683178845_02_WRI-L1_M011.png,2
+5491_0762519988_01_WRI-L1_F012,5491,1,762519988,F,12.3,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5491_0762519988_01_WRI-L1_F012.png,2
+0104_0861127118_01_WRI-L1_M010,104,1,861127118,M,10.7,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0104_0861127118_01_WRI-L1_M010.png,2
+3138_0169471233_03_WRI-R1_M014,3138,3,169471233,M,14.7,R,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3138_0169471233_03_WRI-R1_M014.png,2
+0089_0433913959_01_WRI-R1_F010,89,1,433913959,F,10.9,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0089_0433913959_01_WRI-R1_F010.png,2
+5330_0639063055_01_WRI-L1_M013,5330,1,639063055,M,13.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5330_0639063055_01_WRI-L1_M013.png,2
+1119_0866514748_01_WRI-L1_M011,1119,1,866514748,M,11.4,L,1,,23r-E/1,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1119_0866514748_01_WRI-L1_M011.png,2
+1575_0461839481_01_WRI-L1_M011,1575,1,461839481,M,11.0,L,1,1.0,23-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1575_0461839481_01_WRI-L1_M011.png,2
+5746_0260007541_05_WRI-R1_M010,5746,5,260007541,M,10.1,R,1,,23r-E/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5746_0260007541_05_WRI-R1_M010.png,2
+4998_0591356510_01_WRI-L1_M010,4998,1,591356510,M,10.5,L,1,,23r-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4998_0591356510_01_WRI-L1_M010.png,2
+4352_0617050892_01_WRI-R1_M011,4352,1,617050892,M,11.7,R,1,1.0,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4352_0617050892_01_WRI-R1_M011.png,2
+1355_0485879102_02_WRI-R1_M014,1355,2,485879102,M,14.2,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1355_0485879102_02_WRI-R1_M014.png,2
+0687_0610321247_03_WRI-L1_F010,687,3,610321247,F,10.2,L,1,,23r-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0687_0610321247_03_WRI-L1_F010.png,2
+2030_0191523885_01_WRI-L1_M014,2030,1,191523885,M,14.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2030_0191523885_01_WRI-L1_M014.png,2
+2960_0514653374_02_WRI-R1_M012,2960,2,514653374,M,12.7,R,1,,23-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2960_0514653374_02_WRI-R1_M012.png,2
+0276_0241901690_02_WRI-L1_M012,276,2,241901690,M,12.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0276_0241901690_02_WRI-L1_M012.png,2
+4497_0484653196_02_WRI-R1_M012,4497,2,484653196,M,12.9,R,1,,23u-M/2.1,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4497_0484653196_02_WRI-R1_M012.png,2
+3289_1034374487_02_WRI-R1_M010,3289,2,1034374487,M,10.2,R,1,,23r-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3289_1034374487_02_WRI-R1_M010.png,2
+2271_0520876986_01_WRI-L1_M010,2271,1,520876986,M,10.5,L,1,1.0,23r-M/3.1; 23u-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2271_0520876986_01_WRI-L1_M010.png,2
+3684_0645289554_01_WRI-L1_M014,3684,1,645289554,M,14.7,L,1,1.0,,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3684_0645289554_01_WRI-L1_M014.png,2
+3544_0947009084_01_WRI-L1_F011,3544,1,947009084,F,11.5,L,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3544_0947009084_01_WRI-L1_F011.png,2
+2674_0280646658_03_WRI-L1_M011,2674,3,280646658,M,11.5,L,1,,23-M/3.1; 23u-E/7,1.0,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2674_0280646658_03_WRI-L1_M011.png,2
+5384_0732408753_01_WRI-L1_F014,5384,1,732408753,F,14.8,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5384_0732408753_01_WRI-L1_F014.png,2
+1245_0565187456_02_WRI-L1_F011,1245,2,565187456,F,11.3,L,1,,23r-M/3.1; 23u-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1245_0565187456_02_WRI-L1_F011.png,2
+4741_0691402477_01_WRI-R1_M010,4741,1,691402477,M,10.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4741_0691402477_01_WRI-R1_M010.png,2
+1955_0381387184_01_WRI-R1_M013,1955,1,381387184,M,13.9,R,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1955_0381387184_01_WRI-R1_M013.png,2
+4173_0274438686_01_WRI-R1_M011,4173,1,274438686,M,11.6,R,1,,23r-M/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4173_0274438686_01_WRI-R1_M011.png,2
+0590_0593711644_03_WRI-L1_M013,590,3,593711644,M,13.7,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0590_0593711644_03_WRI-L1_M013.png,2
+3061_0679538379_01_WRI-R1_F010,3061,1,679538379,F,10.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3061_0679538379_01_WRI-R1_F010.png,2
+4623_0771340597_01_WRI-R1_M014,4623,1,771340597,M,14.1,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4623_0771340597_01_WRI-R1_M014.png,2
+4319_0799012787_01_WRI-R1_F012,4319,1,799012787,F,12.4,R,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4319_0799012787_01_WRI-R1_F012.png,2
+3291_0932641331_01_WRI-R1_F010,3291,1,932641331,F,10.7,R,1,1.0,,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3291_0932641331_01_WRI-R1_F010.png,2
+4494_0473438367_01_WRI-R1_M011,4494,1,473438367,M,11.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4494_0473438367_01_WRI-R1_M011.png,2
+0178_0106627326_01_WRI-R1_M013,178,1,106627326,M,13.5,R,1,1.0,23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0178_0106627326_01_WRI-R1_M013.png,2
+3892_1100614768_01_WRI-L1_F010,3892,1,1100614768,F,10.0,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3892_1100614768_01_WRI-L1_F010.png,2
+1129_0391402434_01_WRI-L1_M011,1129,1,391402434,M,11.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1129_0391402434_01_WRI-L1_M011.png,2
+0951_1171404178_02_WRI-L1_F012,951,2,1171404178,F,12.4,L,1,,23r-E/2.1; 23u-E/7,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0951_1171404178_02_WRI-L1_F012.png,2
+0450_0645760536_01_WRI-R1_M010,450,1,645760536,M,10.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0450_0645760536_01_WRI-R1_M010.png,2
+4665_0852853359_01_WRI-R1_M012,4665,1,852853359,M,12.0,R,1,,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4665_0852853359_01_WRI-R1_M012.png,2
+5538_1017811153_01_WRI-L1_F011,5538,1,1017811153,F,11.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5538_1017811153_01_WRI-L1_F011.png,2
+2785_0998421105_01_WRI-L1_F014,2785,1,998421105,F,14.7,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2785_0998421105_01_WRI-L1_F014.png,2
+5762_0504192828_03_WRI-R1_M014,5762,3,504192828,M,14.1,R,1,,23-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5762_0504192828_03_WRI-R1_M014.png,2
+0269_0997550751_03_WRI-R1_M011,269,3,997550751,M,11.5,R,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0269_0997550751_03_WRI-R1_M011.png,2
+5305_0607797465_01_WRI-R1_M011,5305,1,607797465,M,11.8,R,1,1.0,22u-D/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5305_0607797465_01_WRI-R1_M011.png,2
+0831_0106419709_01_WRI-R1_M011,831,1,106419709,M,11.2,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0831_0106419709_01_WRI-R1_M011.png,2
+0240_0448883930_01_WRI-R1_F012,240,1,448883930,F,12.6,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0240_0448883930_01_WRI-R1_F012.png,2
+3957_0872210389_01_WRI-R1_M011,3957,1,872210389,M,11.7,R,1,1.0,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3957_0872210389_01_WRI-R1_M011.png,2
+0234_0816288382_01_WRI-L1_M011,234,1,816288382,M,11.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0234_0816288382_01_WRI-L1_M011.png,2
+0813_0565193051_02_WRI-R1_M013,813,2,565193051,M,13.8,R,1,1.0,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0813_0565193051_02_WRI-R1_M013.png,2
+5752_0681353403_01_WRI-R1_F010,5752,1,681353403,F,10.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5752_0681353403_01_WRI-R1_F010.png,2
+3705_0611238324_03_WRI-L1_M014,3705,3,611238324,M,14.3,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.143,Agfa,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3705_0611238324_03_WRI-L1_M014.png,2
+5641_0732468047_01_WRI-R1_F011,5641,1,732468047,F,11.8,R,1,1.0,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5641_0732468047_01_WRI-R1_F011.png,2
+0526_1159294867_01_WRI-L1_M014,526,1,1159294867,M,14.2,L,1,1.0,,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0526_1159294867_01_WRI-L1_M014.png,2
+6067_0249831631_01_WRI-L1_M014,6067,1,249831631,M,14.0,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/6067_0249831631_01_WRI-L1_M014.png,2
+3269_0870328837_02_WRI-L1_M013,3269,2,870328837,M,13.6,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3269_0870328837_02_WRI-L1_M013.png,2
+5004_0783488558_02_WRI-L1_F012,5004,2,783488558,F,12.0,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5004_0783488558_02_WRI-L1_F012.png,2
+4607_0432205021_01_WRI-L1_M012,4607,1,432205021,M,12.0,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4607_0432205021_01_WRI-L1_M012.png,2
+3710_0613396355_01_WRI-L1_F013,3710,1,613396355,F,13.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3710_0613396355_01_WRI-L1_F013.png,2
+0491_1201399775_01_WRI-L1_F014,491,1,1201399775,F,14.5,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0491_1201399775_01_WRI-L1_F014.png,2
+2737_0867056506_01_WRI-L1_M010,2737,1,867056506,M,10.6,L,1,,23-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2737_0867056506_01_WRI-L1_M010.png,2
+3355_0450371511_02_WRI-L1_M012,3355,2,450371511,M,12.3,L,1,1.0,23r-M/3.1; 23u-E/3,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3355_0450371511_02_WRI-L1_M012.png,2
+5041_0350787520_02_WRI-R1_M012,5041,2,350787520,M,12.4,R,1,,22r-D/2.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5041_0350787520_02_WRI-R1_M012.png,2
+1474_0298088369_01_WRI-R1_M014,1474,1,298088369,M,14.3,R,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1474_0298088369_01_WRI-R1_M014.png,2
+5466_1177382402_01_WRI-L1_M013,5466,1,1177382402,M,13.0,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5466_1177382402_01_WRI-L1_M013.png,2
+3494_0926737603_01_WRI-L1_F014,3494,1,926737603,F,14.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3494_0926737603_01_WRI-L1_F014.png,2
+4275_1142911642_01_WRI-L1_M014,4275,1,1142911642,M,14.6,L,1,1.0,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4275_1142911642_01_WRI-L1_M014.png,2
+1053_1044197507_02_WRI-R1_M013,1053,2,1044197507,M,13.5,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1053_1044197507_02_WRI-R1_M013.png,2
+3588_0362766890_01_WRI-L1_M011,3588,1,362766890,M,11.7,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3588_0362766890_01_WRI-L1_M011.png,2
+4528_0878934369_01_WRI-R1_M012,4528,1,878934369,M,12.3,R,1,1.0,,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4528_0878934369_01_WRI-R1_M012.png,2
+0641_0946079977_01_WRI-R1_F012,641,1,946079977,F,12.7,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0641_0946079977_01_WRI-R1_F012.png,2
+0487_0727289938_03_WRI-R1_F012,487,3,727289938,F,12.5,R,1,,23r-M/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0487_0727289938_03_WRI-R1_F012.png,2
+1997_1031561712_01_WRI-R1_M014,1997,1,1031561712,M,14.2,R,1,1.0,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1997_1031561712_01_WRI-R1_M014.png,2
+2107_1234950372_01_WRI-L1_F012,2107,1,1234950372,F,12.8,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2107_1234950372_01_WRI-L1_F012.png,2
+3594_0332432381_02_WRI-R1_M014,3594,2,332432381,M,14.4,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3594_0332432381_02_WRI-R1_M014.png,2
+1792_1192795384_04_WRI-L1_M012,1792,4,1192795384,M,12.2,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1792_1192795384_04_WRI-L1_M012.png,2
+5577_0938492370_01_WRI-R1_F012,5577,1,938492370,F,12.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5577_0938492370_01_WRI-R1_F012.png,2
+0096_0818539808_01_WRI-R1_F013,96,1,818539808,F,13.4,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0096_0818539808_01_WRI-R1_F013.png,2
+2326_1054380130_01_WRI-R1_F012,2326,1,1054380130,F,12.0,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2326_1054380130_01_WRI-R1_F012.png,2
+0818_0571828119_04_WRI-R1_M013,818,4,571828119,M,13.4,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0818_0571828119_04_WRI-R1_M013.png,2
+0818_0569831838_01_WRI-L1_M013,818,1,569831838,M,13.4,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0818_0569831838_01_WRI-L1_M013.png,2
+4735_0741468791_01_WRI-R1_F010,4735,1,741468791,F,10.9,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4735_0741468791_01_WRI-R1_F010.png,2
+5224_0791124341_04_WRI-R1_M014,5224,4,791124341,M,14.0,R,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5224_0791124341_04_WRI-R1_M014.png,2
+5839_0317796190_01_WRI-L1_F013,5839,1,317796190,F,13.0,L,1,1.0,23r-E/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5839_0317796190_01_WRI-L1_F013.png,2
+4461_0293829681_01_WRI-L1_F010,4461,1,293829681,F,10.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4461_0293829681_01_WRI-L1_F010.png,2
+3510_0583152597_03_WRI-L1_F011,3510,3,583152597,F,11.1,L,1,,23r-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3510_0583152597_03_WRI-L1_F011.png,2
+3132_0836364245_01_WRI-R1_M012,3132,1,836364245,M,12.7,R,1,1.0,23r-E/1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3132_0836364245_01_WRI-R1_M012.png,2
+3152_0892954463_04_WRI-L1_F013,3152,4,892954463,F,13.4,L,1,,23r-E/2.1,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3152_0892954463_04_WRI-L1_F013.png,2
+5125_0923607204_01_WRI-R1_M013,5125,1,923607204,M,13.9,R,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5125_0923607204_01_WRI-R1_M013.png,2
+0807_0274215122_01_WRI-L1_F012,807,1,274215122,F,12.5,L,1,1.0,23r-M/3.1; 23u-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0807_0274215122_01_WRI-L1_F012.png,2
+5631_1105378402_02_WRI-R1_F011,5631,2,1105378402,F,11.4,R,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5631_1105378402_02_WRI-R1_F011.png,2
+6085_0162795278_01_WRI-L1_M010,6085,1,162795278,M,10.8,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/6085_0162795278_01_WRI-L1_M010.png,2
+5866_0695923717_01_WRI-R1_M013,5866,1,695923717,M,13.7,R,1,1.0,72B(b),,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5866_0695923717_01_WRI-R1_M013.png,2
+0199_0977007666_01_WRI-R1_M011,199,1,977007666,M,11.3,R,1,,23-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0199_0977007666_01_WRI-R1_M011.png,2
+1983_0880879634_02_WRI-R1_F010,1983,2,880879634,F,10.3,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1983_0880879634_02_WRI-R1_F010.png,2
+0304_0662735859_01_WRI-L1_M014,304,1,662735859,M,14.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0304_0662735859_01_WRI-L1_M014.png,2
+4611_1067465205_01_WRI-L1_M011,4611,1,1067465205,M,11.0,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4611_1067465205_01_WRI-L1_M011.png,2
+0530_0794994105_04_WRI-L1_M012,530,4,794994105,M,12.9,L,1,,23r-E/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0530_0794994105_04_WRI-L1_M012.png,2
+0978_0630238295_01_WRI-L1_M010,978,1,630238295,M,10.7,L,1,1.0,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0978_0630238295_01_WRI-L1_M010.png,2
+5283_1165244622_06_WRI-L1_M014,5283,6,1165244622,M,14.1,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5283_1165244622_06_WRI-L1_M014.png,2
+2400_1099453297_01_WRI-L1_M014,2400,1,1099453297,M,14.0,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2400_1099453297_01_WRI-L1_M014.png,2
+1324_0599164612_03_WRI-L1_M013,1324,3,599164612,M,13.5,L,1,,23r-M/3.1; 23u-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1324_0599164612_03_WRI-L1_M013.png,2
+1550_1241764807_01_WRI-L1_M013,1550,1,1241764807,M,13.8,L,1,,23r-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1550_1241764807_01_WRI-L1_M013.png,2
+1700_1139374920_04_WRI-R1_M011,1700,4,1139374920,M,11.9,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1700_1139374920_04_WRI-R1_M011.png,2
+4274_0535968117_01_WRI-L1_M013,4274,1,535968117,M,13.1,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4274_0535968117_01_WRI-L1_M013.png,2
+3613_0309101561_01_WRI-L1_M013,3613,1,309101561,M,13.1,L,1,,23r-M/3.1; 23u-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3613_0309101561_01_WRI-L1_M013.png,2
+3570_0745524510_04_WRI-R1_M013,3570,4,745524510,M,13.6,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3570_0745524510_04_WRI-R1_M013.png,2
+4780_0446102752_01_WRI-L1_M011,4780,1,446102752,M,11.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4780_0446102752_01_WRI-L1_M011.png,2
+5481_0836217158_01_WRI-L1_F010,5481,1,836217158,F,10.0,L,1,,23r-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5481_0836217158_01_WRI-L1_F010.png,2
+2358_0832912107_01_WRI-R1_M010,2358,1,832912107,M,10.2,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2358_0832912107_01_WRI-R1_M010.png,2
+4239_0916147178_02_WRI-L1_F012,4239,2,916147178,F,12.7,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4239_0916147178_02_WRI-L1_F012.png,2
+5928_0502316160_01_WRI-R1_F012,5928,1,502316160,F,12.3,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5928_0502316160_01_WRI-R1_F012.png,2
+2941_0823157443_01_WRI-R1_M012,2941,1,823157443,M,12.7,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2941_0823157443_01_WRI-R1_M012.png,2
+3174_0578116166_03_WRI-R1_M013,3174,3,578116166,M,13.9,R,1,,23r-M/2.1; 23u-E/3,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3174_0578116166_03_WRI-R1_M013.png,2
+4614_0456276703_02_WRI-L1_F010,4614,2,456276703,F,10.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4614_0456276703_02_WRI-L1_F010.png,2
+2781_0513357758_01_WRI-L1_M014,2781,1,513357758,M,14.1,L,1,1.0,23-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2781_0513357758_01_WRI-L1_M014.png,2
+1438_1093900833_06_WRI-L1_M013,1438,6,1093900833,M,13.5,L,1,,23-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1438_1093900833_06_WRI-L1_M013.png,2
+5024_0988247598_01_WRI-L1_F011,5024,1,988247598,F,11.8,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5024_0988247598_01_WRI-L1_F011.png,2
+4183_0775803648_01_WRI-L1_F013,4183,1,775803648,F,13.9,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4183_0775803648_01_WRI-L1_F013.png,2
+5143_1013570820_06_WRI-L1_M013,5143,6,1013570820,M,13.7,L,1,,23r-E/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5143_1013570820_06_WRI-L1_M013.png,2
+5195_0607482049_01_WRI-L1_M011,5195,1,607482049,M,11.4,L,1,1.0,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5195_0607482049_01_WRI-L1_M011.png,2
+6056_0585618656_01_WRI-L1_M012,6056,1,585618656,M,12.3,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/6056_0585618656_01_WRI-L1_M012.png,2
+1316_0729649647_03_WRI-R1_M013,1316,3,729649647,M,13.1,R,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1316_0729649647_03_WRI-R1_M013.png,2
+2520_0521480050_02_WRI-L1_F010,2520,2,521480050,F,10.2,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2520_0521480050_02_WRI-L1_F010.png,2
+2400_1101271099_03_WRI-L1_M014,2400,3,1101271099,M,14.0,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2400_1101271099_03_WRI-L1_M014.png,2
+0937_1154392122_01_WRI-R1_M013,937,1,1154392122,M,13.0,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0937_1154392122_01_WRI-R1_M013.png,2
+4413_0969632548_01_WRI-L1_M010,4413,1,969632548,M,10.9,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4413_0969632548_01_WRI-L1_M010.png,2
+5135_0557078972_01_WRI-R1_M011,5135,1,557078972,M,11.3,R,1,1.0,23r-E/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5135_0557078972_01_WRI-R1_M011.png,2
+3655_0846585352_02_WRI-R1_M011,3655,2,846585352,M,11.9,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3655_0846585352_02_WRI-R1_M011.png,2
+5054_1150502594_03_WRI-R1_M010,5054,3,1150502594,M,10.2,R,1,,23r-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5054_1150502594_03_WRI-R1_M010.png,2
+5970_0447505094_01_WRI-L1_M014,5970,1,447505094,M,14.5,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5970_0447505094_01_WRI-L1_M014.png,2
+5980_0995828173_01_WRI-L1_M011,5980,1,995828173,M,11.6,L,1,1.0,23r-E/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5980_0995828173_01_WRI-L1_M011.png,2
+5328_0476911826_02_WRI-R1_F014,5328,2,476911826,F,14.0,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5328_0476911826_02_WRI-R1_F014.png,2
+0691_0530232674_01_WRI-L1_M011,691,1,530232674,M,11.0,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0691_0530232674_01_WRI-L1_M011.png,2
+3607_0341102405_02_WRI-L1_F014,3607,2,341102405,F,14.6,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3607_0341102405_02_WRI-L1_F014.png,2
+2354_0418151723_01_WRI-R1_F010,2354,1,418151723,F,10.5,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2354_0418151723_01_WRI-R1_F010.png,2
+5432_0686591335_03_WRI-L1_M011,5432,3,686591335,M,11.5,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5432_0686591335_03_WRI-L1_M011.png,2
+4274_0536924068_02_WRI-L1_M013,4274,2,536924068,M,13.1,L,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4274_0536924068_02_WRI-L1_M013.png,2
+4765_0440396167_01_WRI-L1_F010,4765,1,440396167,F,10.9,L,1,1.0,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4765_0440396167_01_WRI-L1_F010.png,2
+5174_0854265829_01_WRI-L1_F012,5174,1,854265829,F,12.6,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5174_0854265829_01_WRI-L1_F012.png,2
+1833_0211869230_01_WRI-L1_M010,1833,1,211869230,M,10.1,L,1,,23-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1833_0211869230_01_WRI-L1_M010.png,2
+0500_0515510337_01_WRI-L1_M012,500,1,515510337,M,12.1,L,1,1.0,23r-E/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0500_0515510337_01_WRI-L1_M012.png,2
+0593_0822375984_01_WRI-L1_F010,593,1,822375984,F,10.0,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0593_0822375984_01_WRI-L1_F010.png,2
+4750_0270090094_01_WRI-R1_F013,4750,1,270090094,F,13.4,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4750_0270090094_01_WRI-R1_F013.png,2
+3770_0521114269_01_WRI-R1_F012,3770,1,521114269,F,12.1,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3770_0521114269_01_WRI-R1_F012.png,2
+4513_0949909703_01_WRI-L1_M014,4513,1,949909703,M,14.3,L,1,1.0,23-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4513_0949909703_01_WRI-L1_M014.png,2
+1806_0835241064_01_WRI-R1_F011,1806,1,835241064,F,11.3,R,1,,23r-M/3.1; 23u/E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1806_0835241064_01_WRI-R1_F011.png,2
+4467_0568106465_01_WRI-R1_F010,4467,1,568106465,F,10.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4467_0568106465_01_WRI-R1_F010.png,2
+3425_0379707104_01_WRI-L1_F013,3425,1,379707104,F,13.9,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3425_0379707104_01_WRI-L1_F013.png,2
+4056_0776554158_01_WRI-R1_F012,4056,1,776554158,F,12.9,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4056_0776554158_01_WRI-R1_F012.png,2
+1398_1011681808_02_WRI-L1_F012,1398,2,1011681808,F,12.9,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1398_1011681808_02_WRI-L1_F012.png,2
+4244_0598787561_01_WRI-L1_F012,4244,1,598787561,F,12.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4244_0598787561_01_WRI-L1_F012.png,2
+2891_0475678662_01_WRI-L1_M011,2891,1,475678662,M,11.3,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2891_0475678662_01_WRI-L1_M011.png,2
+0066_1261436248_02_WRI-L1_M011,66,2,1261436248,M,11.6,L,1,,23r-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0066_1261436248_02_WRI-L1_M011.png,2
+0190_0856718695_05_WRI-R1_M013,190,5,856718695,M,13.7,R,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0190_0856718695_05_WRI-R1_M013.png,2
+2806_0710051885_02_WRI-R1_F013,2806,2,710051885,F,13.6,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2806_0710051885_02_WRI-R1_F013.png,2
+0649_0824283566_01_WRI-L1_M013,649,1,824283566,M,13.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0649_0824283566_01_WRI-L1_M013.png,2
+2362_0950187177_01_WRI-L1_F013,2362,1,950187177,F,13.7,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2362_0950187177_01_WRI-L1_F013.png,2
+4387_0687173518_01_WRI-L1_M013,4387,1,687173518,M,13.7,L,1,1.0,23r-E/1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4387_0687173518_01_WRI-L1_M013.png,2
+2672_0311842043_01_WRI-R1_M012,2672,1,311842043,M,12.9,R,1,,23r-M/3.1,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2672_0311842043_01_WRI-R1_M012.png,2
+5888_0980988134_01_WRI-L1_M012,5888,1,980988134,M,12.6,L,1,,23r-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5888_0980988134_01_WRI-L1_M012.png,2
+3374_0383289401_01_WRI-R1_M011,3374,1,383289401,M,11.9,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3374_0383289401_01_WRI-R1_M011.png,2
+1246_0923488695_02_WRI-R1_M012,1246,2,923488695,M,12.8,R,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1246_0923488695_02_WRI-R1_M012.png,2
+5647_0282380435_04_WRI-L1_M012,5647,4,282380435,M,12.2,L,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5647_0282380435_04_WRI-L1_M012.png,2
+1314_0945437561_01_WRI-L1_M013,1314,1,945437561,M,13.5,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1314_0945437561_01_WRI-L1_M013.png,2
+5902_0769649050_01_WRI-L1_M012,5902,1,769649050,M,12.7,L,1,,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5902_0769649050_01_WRI-L1_M012.png,2
+0621_0497729065_01_WRI-R1_M014,621,1,497729065,M,14.5,R,1,1.0,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0621_0497729065_01_WRI-R1_M014.png,2
+0857_0795567778_01_WRI-L1_M012,857,1,795567778,M,12.0,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0857_0795567778_01_WRI-L1_M012.png,2
+4202_0412942526_03_WRI-R1_M013,4202,3,412942526,M,13.2,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4202_0412942526_03_WRI-R1_M013.png,2
+0363_0770982232_01_WRI-L1_M014,363,1,770982232,M,14.4,L,1,,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0363_0770982232_01_WRI-L1_M014.png,2
+0763_0629367499_02_WRI-R1_M011,763,2,629367499,M,11.7,R,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0763_0629367499_02_WRI-R1_M011.png,2
+1314_0947946209_02_WRI-L1_M013,1314,2,947946209,M,13.6,L,1,,23r-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1314_0947946209_02_WRI-L1_M013.png,2
+4179_0370575490_03_WRI-R1_M014,4179,3,370575490,M,14.0,R,1,,23-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4179_0370575490_03_WRI-R1_M014.png,2
+4559_0894610103_05_WRI-L1_M011,4559,5,894610103,M,11.7,L,1,,23r-E/2.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4559_0894610103_05_WRI-L1_M011.png,2
+4129_0671282328_01_WRI-R1_F012,4129,1,671282328,F,12.8,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4129_0671282328_01_WRI-R1_F012.png,2
+4245_0947922950_01_WRI-R1_F013,4245,1,947922950,F,13.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4245_0947922950_01_WRI-R1_F013.png,2
+0909_0332022531_03_WRI-L1_M012,909,3,332022531,M,12.2,L,1,,23r-M/2.1,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0909_0332022531_03_WRI-L1_M012.png,2
+5907_0418780922_01_WRI-R1_F011,5907,1,418780922,F,11.6,R,1,1.0,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5907_0418780922_01_WRI-R1_F011.png,2
+2090_0699117663_01_WRI-R1_F011,2090,1,699117663,F,11.7,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2090_0699117663_01_WRI-R1_F011.png,2
+2186_1198029759_01_WRI-R1_M012,2186,1,1198029759,M,12.1,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2186_1198029759_01_WRI-R1_M012.png,2
+5412_1290739685_03_WRI-L1_M011,5412,3,1290739685,M,11.0,L,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5412_1290739685_03_WRI-L1_M011.png,2
+0744_1250975266_03_WRI-L1_M010,744,3,1250975266,M,10.5,L,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0744_1250975266_03_WRI-L1_M010.png,2
+5339_0505315662_04_WRI-R1_F012,5339,4,505315662,F,12.0,R,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5339_0505315662_04_WRI-R1_F012.png,2
+1168_0675549914_02_WRI-R1_M014,1168,2,675549914,M,14.6,R,1,1.0,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1168_0675549914_02_WRI-R1_M014.png,2
+2712_0266141681_05_WRI-L1_M011,2712,5,266141681,M,11.5,L,1,,23r-M/3.1; 23u-M/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2712_0266141681_05_WRI-L1_M011.png,2
+4832_1193732375_02_WRI-L1_M013,4832,2,1193732375,M,13.2,L,1,1.0,23r-M/3.1; 23u-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4832_1193732375_02_WRI-L1_M013.png,2
+4612_0535367382_03_WRI-L1_M012,4612,3,535367382,M,12.2,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4612_0535367382_03_WRI-L1_M012.png,2
+2753_1191067657_01_WRI-R1_M014,2753,1,1191067657,M,14.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2753_1191067657_01_WRI-R1_M014.png,2
+2638_0647623305_01_WRI-L1_M010,2638,1,647623305,M,10.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2638_0647623305_01_WRI-L1_M010.png,2
+3597_1054113123_01_WRI-R1_M012,3597,1,1054113123,M,12.4,R,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3597_1054113123_01_WRI-R1_M012.png,2
+4752_0726210698_01_WRI-L1_M010,4752,1,726210698,M,10.0,L,1,1.0,22u-D/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4752_0726210698_01_WRI-L1_M010.png,2
+0885_0911236374_03_WRI-R1_M011,885,3,911236374,M,11.5,R,1,,23-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0885_0911236374_03_WRI-R1_M011.png,2
+2751_1141008438_01_WRI-L1_M014,2751,1,1141008438,M,14.4,L,1,,23r-M/3.1; 23u-M/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2751_1141008438_01_WRI-L1_M014.png,2
+2476_0356722674_02_WRI-R1_M014,2476,2,356722674,M,14.1,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2476_0356722674_02_WRI-R1_M014.png,2
+1520_1187934455_01_WRI-R1_M013,1520,1,1187934455,M,13.0,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1520_1187934455_01_WRI-R1_M013.png,2
+4969_0206805614_03_WRI-L1_F010,4969,3,206805614,F,10.1,L,1,,23r-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4969_0206805614_03_WRI-L1_F010.png,2
+1745_0498363946_01_WRI-L1_M010,1745,1,498363946,M,10.8,L,1,1.0,23r-M/3.1; 23u-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1745_0498363946_01_WRI-L1_M010.png,2
+4121_0304414172_05_WRI-L1_M010,4121,5,304414172,M,10.0,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4121_0304414172_05_WRI-L1_M010.png,2
+0262_0500989374_02_WRI-L1_F012,262,2,500989374,F,12.0,L,1,,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0262_0500989374_02_WRI-L1_F012.png,2
+4280_1123922190_01_WRI-L1_M012,4280,1,1123922190,M,12.4,L,1,,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4280_1123922190_01_WRI-L1_M012.png,2
+0923_0696047068_01_WRI-L1_F010,923,1,696047068,F,10.9,L,1,,23r-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0923_0696047068_01_WRI-L1_F010.png,2
+3152_0892348557_03_WRI-L1_F013,3152,3,892348557,F,13.4,L,1,,23r-E/2.1,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3152_0892348557_03_WRI-L1_F013.png,2
+5278_0817595434_01_WRI-L1_F012,5278,1,817595434,F,12.2,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5278_0817595434_01_WRI-L1_F012.png,2
+5035_1079423195_02_WRI-R1_M010,5035,2,1079423195,M,10.6,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5035_1079423195_02_WRI-R1_M010.png,2
+5337_0874268964_01_WRI-R1_F012,5337,1,874268964,F,12.0,R,1,1.0,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5337_0874268964_01_WRI-R1_F012.png,2
+0342_0523591862_04_WRI-R1_M012,342,4,523591862,M,12.6,R,1,,23-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0342_0523591862_04_WRI-R1_M012.png,2
+5533_1116359860_03_WRI-R1_F010,5533,3,1116359860,F,10.0,R,1,1.0,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5533_1116359860_03_WRI-R1_F010.png,2
+2162_0654642065_01_WRI-L1_M013,2162,1,654642065,M,13.2,L,1,1.0,22r-D/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2162_0654642065_01_WRI-L1_M013.png,2
+4488_0418698294_03_WRI-L1_M014,4488,3,418698294,M,14.6,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4488_0418698294_03_WRI-L1_M014.png,2
+5940_0225647825_01_WRI-L1_F011,5940,1,225647825,F,11.7,L,1,,23r-M/3.1,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5940_0225647825_01_WRI-L1_F011.png,2
+2299_1040975796_01_WRI-L1_F014,2299,1,1040975796,F,14.0,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2299_1040975796_01_WRI-L1_F014.png,2
+3594_0333816471_03_WRI-R1_M014,3594,3,333816471,M,14.4,R,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3594_0333816471_03_WRI-R1_M014.png,2
+5837_0367495934_01_WRI-L1_F011,5837,1,367495934,F,11.2,L,1,,22r-D/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5837_0367495934_01_WRI-L1_F011.png,2
+5243_0527699158_01_WRI-L1_M011,5243,1,527699158,M,11.2,L,1,,23-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5243_0527699158_01_WRI-L1_M011.png,2
+1178_0185771850_01_WRI-L1_M014,1178,1,185771850,M,14.2,L,1,,23r-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1178_0185771850_01_WRI-L1_M014.png,2
+1116_0780784437_01_WRI-L1_F011,1116,1,780784437,F,11.1,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1116_0780784437_01_WRI-L1_F011.png,2
+0256_0838529876_01_WRI-L1_M010,256,1,838529876,M,10.4,L,1,,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0256_0838529876_01_WRI-L1_M010.png,2
+4686_0734775738_01_WRI-L1_M011,4686,1,734775738,M,11.3,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4686_0734775738_01_WRI-L1_M011.png,2
+1409_0513993997_02_WRI-R1_M013,1409,2,513993997,M,13.2,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1409_0513993997_02_WRI-R1_M013.png,2
+0692_0364273771_01_WRI-L1_M010,692,1,364273771,M,10.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0692_0364273771_01_WRI-L1_M010.png,2
+5760_1230666550_02_WRI-L1_F012,5760,2,1230666550,F,12.5,L,1,,23-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5760_1230666550_02_WRI-L1_F012.png,2
+4123_1297140883_01_WRI-L1_F012,4123,1,1297140883,F,12.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4123_1297140883_01_WRI-L1_F012.png,2
+2698_0863049745_03_WRI-R1_M012,2698,3,863049745,M,12.5,R,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2698_0863049745_03_WRI-R1_M012.png,2
+1529_0405249666_01_WRI-L1_M011,1529,1,405249666,M,11.9,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1529_0405249666_01_WRI-L1_M011.png,2
+2063_1152963939_05_WRI-R1_M014,2063,5,1152963939,M,14.2,R,1,,23r-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2063_1152963939_05_WRI-R1_M014.png,2
+3230_0935925976_03_WRI-L1_F011,3230,3,935925976,F,11.4,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3230_0935925976_03_WRI-L1_F011.png,2
+3745_0975531841_01_WRI-L1_M014,3745,1,975531841,M,14.0,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3745_0975531841_01_WRI-L1_M014.png,2
+0431_0612615458_02_WRI-L1_M014,431,2,612615458,M,14.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0431_0612615458_02_WRI-L1_M014.png,2
+0576_0346496379_01_WRI-R1_F014,576,1,346496379,F,14.2,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0576_0346496379_01_WRI-R1_F014.png,2
+1259_0823186482_01_WRI-R1_M013,1259,1,823186482,M,13.3,R,1,1.0,72B(c),,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1259_0823186482_01_WRI-R1_M013.png,2
+1442_0958244720_01_WRI-R1_M013,1442,1,958244720,M,13.7,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1442_0958244720_01_WRI-R1_M013.png,2
+0185_0588340759_03_WRI-L1_M011,185,3,588340759,M,11.7,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0185_0588340759_03_WRI-L1_M011.png,2
+5324_1077495006_03_WRI-L1_M014,5324,3,1077495006,M,14.8,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5324_1077495006_03_WRI-L1_M014.png,2
+5944_1025121257_01_WRI-R1_F010,5944,1,1025121257,F,10.3,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5944_1025121257_01_WRI-R1_F010.png,2
+2821_0374381091_03_WRI-L1_M013,2821,3,374381091,M,13.2,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2821_0374381091_03_WRI-L1_M013.png,2
+0504_1024018669_01_WRI-R1_M014,504,1,1024018669,M,14.5,R,1,1.0,72B.(b),,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0504_1024018669_01_WRI-R1_M014.png,2
+0027_0484640641_01_WRI-L1_F011,27,1,484640641,F,11.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0027_0484640641_01_WRI-L1_F011.png,2
+6014_0135494002_01_WRI-R1_F012,6014,1,135494002,F,12.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/6014_0135494002_01_WRI-R1_F012.png,2
+1269_1307484387_01_WRI-L1_F012,1269,1,1307484387,F,12.5,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1269_1307484387_01_WRI-L1_F012.png,2
+4704_0713856664_01_WRI-L1_F014,4704,1,713856664,F,14.0,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4704_0713856664_01_WRI-L1_F014.png,2
+3574_0958136251_01_WRI-R1_M012,3574,1,958136251,M,12.7,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3574_0958136251_01_WRI-R1_M012.png,2
+1732_0396466899_01_WRI-L1_M011,1732,1,396466899,M,11.8,L,1,1.0,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1732_0396466899_01_WRI-L1_M011.png,2
+3309_0330303389_01_WRI-R1_M010,3309,1,330303389,M,10.6,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3309_0330303389_01_WRI-R1_M010.png,2
+1115_0285811783_01_WRI-R1_F011,1115,1,285811783,F,11.1,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1115_0285811783_01_WRI-R1_F011.png,2
+2442_0562392939_01_WRI-L1_F010,2442,1,562392939,F,10.0,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2442_0562392939_01_WRI-L1_F010.png,2
+3308_0313266290_03_WRI-L1_F010,3308,3,313266290,F,10.9,L,1,,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3308_0313266290_03_WRI-L1_F010.png,2
+4863_1016330122_01_WRI-L1_M011,4863,1,1016330122,M,11.0,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4863_1016330122_01_WRI-L1_M011.png,2
+5373_0663772682_04_WRI-R1_F011,5373,4,663772682,F,11.6,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5373_0663772682_04_WRI-R1_F011.png,2
+3861_0955635939_03_WRI-L1_M010,3861,3,955635939,M,10.6,L,1,,23-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3861_0955635939_03_WRI-L1_M010.png,2
+5076_0694708921_02_WRI-R1_M013,5076,2,694708921,M,13.3,R,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5076_0694708921_02_WRI-R1_M013.png,2
+3759_0568752969_02_WRI-L1_M011,3759,2,568752969,M,11.5,L,1,,,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3759_0568752969_02_WRI-L1_M011.png,2
+3014_1080226704_02_WRI-L1_F012,3014,2,1080226704,F,12.1,L,1,,23r-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3014_1080226704_02_WRI-L1_F012.png,2
+2820_0751450179_03_WRI-L1_F013,2820,3,751450179,F,13.4,L,1,,23r-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2820_0751450179_03_WRI-L1_F013.png,2
+2991_0653694852_03_WRI-R1_M013,2991,3,653694852,M,13.2,R,1,,23r-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2991_0653694852_03_WRI-R1_M013.png,2
+4768_1033763213_02_WRI-L1_M014,4768,2,1033763213,M,14.8,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4768_1033763213_02_WRI-L1_M014.png,2
+1964_0643558857_01_WRI-R1_M014,1964,1,643558857,M,14.9,R,1,1.0,23-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1964_0643558857_01_WRI-R1_M014.png,2
+5230_0288804688_01_WRI-L1_M010,5230,1,288804688,M,10.8,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5230_0288804688_01_WRI-L1_M010.png,2
+1092_0435277742_05_WRI-L1_M010,1092,5,435277742,M,10.3,L,1,,23-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1092_0435277742_05_WRI-L1_M010.png,2
+5778_0910444463_02_WRI-R1_M012,5778,2,910444463,M,12.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5778_0910444463_02_WRI-R1_M012.png,2
+6025_0701609328_01_WRI-R1_F011,6025,1,701609328,F,11.9,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/6025_0701609328_01_WRI-R1_F011.png,2
+5432_0685748221_02_WRI-L1_M011,5432,2,685748221,M,11.5,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5432_0685748221_02_WRI-L1_M011.png,2
+3853_1028957378_03_WRI-L1_M014,3853,3,1028957378,M,14.4,L,1,,23r-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3853_1028957378_03_WRI-L1_M014.png,2
+1792_1191009325_02_WRI-L1_M012,1792,2,1191009325,M,12.2,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1792_1191009325_02_WRI-L1_M012.png,2
+3024_1028983721_01_WRI-R1_M010,3024,1,1028983721,M,10.1,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3024_1028983721_01_WRI-R1_M010.png,2
+2350_0949734059_01_WRI-L1_F014,2350,1,949734059,F,14.2,L,1,,,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2350_0949734059_01_WRI-L1_F014.png,2
+1932_0330231259_01_WRI-L1_F012,1932,1,330231259,F,12.0,L,1,1.0,,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1932_0330231259_01_WRI-L1_F012.png,2
+2899_0644285762_02_WRI-R1_F010,2899,2,644285762,F,10.7,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2899_0644285762_02_WRI-R1_F010.png,2
+1827_1181079448_01_WRI-R1_F012,1827,1,1181079448,F,12.1,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1827_1181079448_01_WRI-R1_F012.png,2
+2601_0341330582_01_WRI-R1_F011,2601,1,341330582,F,11.0,R,1,1.0,,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2601_0341330582_01_WRI-R1_F011.png,2
+1330_0370508209_01_WRI-L1_M010,1330,1,370508209,M,10.2,L,1,,23-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1330_0370508209_01_WRI-L1_M010.png,2
+4944_1186530871_01_WRI-L1_M013,4944,1,1186530871,M,13.0,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4944_1186530871_01_WRI-L1_M013.png,2
+5219_0364561868_01_WRI-L1_M011,5219,1,364561868,M,11.7,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5219_0364561868_01_WRI-L1_M011.png,2
+2925_0505717456_01_WRI-R1_M010,2925,1,505717456,M,10.6,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2925_0505717456_01_WRI-R1_M010.png,2
+0448_0603641868_01_WRI-R1_F010,448,1,603641868,F,10.6,R,1,1.0,23r-D/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0448_0603641868_01_WRI-R1_F010.png,2
+1409_0515377341_04_WRI-R1_M013,1409,4,515377341,M,13.2,R,1,,23r-M/3.1; 23u-E/7,,,,1.0,,0.143,Agfa,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1409_0515377341_04_WRI-R1_M013.png,2
+2099_0394626046_01_WRI-R1_M010,2099,1,394626046,M,10.7,R,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2099_0394626046_01_WRI-R1_M010.png,2
+0133_0281747972_02_WRI-R1_M014,133,2,281747972,M,14.2,R,1,,23r-M/3.1; 23u-M/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0133_0281747972_02_WRI-R1_M014.png,2
+2409_0269455675_01_WRI-R1_F010,2409,1,269455675,F,10.7,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2409_0269455675_01_WRI-R1_F010.png,2
+1889_0670591735_01_WRI-L1_M013,1889,1,670591735,M,13.1,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1889_0670591735_01_WRI-L1_M013.png,2
+5851_0304505693_03_WRI-R1_M011,5851,3,304505693,M,11.5,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5851_0304505693_03_WRI-R1_M011.png,2
+3018_0887768215_01_WRI-R1_F014,3018,1,887768215,F,14.7,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3018_0887768215_01_WRI-R1_F014.png,2
+0802_0300129472_02_WRI-R1_M011,802,2,300129472,M,11.9,R,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0802_0300129472_02_WRI-R1_M011.png,2
+2263_0615798219_02_WRI-L1_M010,2263,2,615798219,M,10.8,L,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2263_0615798219_02_WRI-L1_M010.png,2
+4539_1206666241_01_WRI-R1_M012,4539,1,1206666241,M,12.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4539_1206666241_01_WRI-R1_M012.png,2
+3140_1255577347_01_WRI-R1_M011,3140,1,1255577347,M,11.6,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3140_1255577347_01_WRI-R1_M011.png,2
+0109_0883053611_01_WRI-R1_M014,109,1,883053611,M,14.2,R,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0109_0883053611_01_WRI-R1_M014.png,2
+0940_1043726383_02_WRI-L1_F010,940,2,1043726383,F,10.7,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0940_1043726383_02_WRI-L1_F010.png,2
+2641_0243412607_01_WRI-R1_F012,2641,1,243412607,F,12.7,R,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2641_0243412607_01_WRI-R1_F012.png,2
+2749_0297516333_01_WRI-L1_M013,2749,1,297516333,M,13.9,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2749_0297516333_01_WRI-L1_M013.png,2
+4757_0436841322_01_WRI-L1_M012,4757,1,436841322,M,12.9,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4757_0436841322_01_WRI-L1_M012.png,2
+3751_0520156795_01_WRI-R1_M014,3751,1,520156795,M,14.1,R,1,1.0,,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3751_0520156795_01_WRI-R1_M014.png,2
+1170_0760201316_01_WRI-R1_F011,1170,1,760201316,F,11.0,R,1,,23r-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1170_0760201316_01_WRI-R1_F011.png,2
+1716_0509704534_06_WRI-R1_F010,1716,6,509704534,F,10.7,R,1,,23r-E/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1716_0509704534_06_WRI-R1_F010.png,2
+1091_0375665957_01_WRI-L1_F011,1091,1,375665957,F,11.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1091_0375665957_01_WRI-L1_F011.png,2
+3036_0260481868_01_WRI-L1_M013,3036,1,260481868,M,13.1,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3036_0260481868_01_WRI-L1_M013.png,2
+1615_0954652945_01_WRI-R1_F012,1615,1,954652945,F,12.6,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1615_0954652945_01_WRI-R1_F012.png,2
+3984_1056501617_04_WRI-L1_M011,3984,4,1056501617,M,11.8,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3984_1056501617_04_WRI-L1_M011.png,2
+3423_0457683609_04_WRI-R1_M011,3423,4,457683609,M,11.9,R,1,,23-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3423_0457683609_04_WRI-R1_M011.png,2
+3412_0618585686_01_WRI-L1_M014,3412,1,618585686,M,14.2,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3412_0618585686_01_WRI-L1_M014.png,2
+3126_0326943902_01_WRI-R1_F010,3126,1,326943902,F,10.0,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3126_0326943902_01_WRI-R1_F010.png,2
+5922_0906707430_04_WRI-L1_F012,5922,4,906707430,F,12.4,L,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5922_0906707430_04_WRI-L1_F012.png,2
+5221_0433513557_03_WRI-L1_M013,5221,3,433513557,M,13.6,L,1,,23r-E/2.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5221_0433513557_03_WRI-L1_M013.png,2
+3289_1034023803_01_WRI-R1_M010,3289,1,1034023803,M,10.2,R,1,,23r-E/2.1,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3289_1034023803_01_WRI-R1_M010.png,2
+4301_1017999953_01_WRI-L1_M012,4301,1,1017999953,M,12.9,L,1,1.0,23r-M/2.1,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4301_1017999953_01_WRI-L1_M012.png,2
+2877_1120793270_06_WRI-R1_M014,2877,6,1120793270,M,14.6,R,1,,23r-M/3.1; 22u-D/4.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2877_1120793270_06_WRI-R1_M014.png,2
+5298_0975870214_04_WRI-R1_M013,5298,4,975870214,M,13.2,R,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5298_0975870214_04_WRI-R1_M013.png,2
+1333_1100989064_01_WRI-L1_M012,1333,1,1100989064,M,12.5,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1333_1100989064_01_WRI-L1_M012.png,2
+1792_1191004489_01_WRI-L1_M012,1792,1,1191004489,M,12.2,L,1,1.0,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1792_1191004489_01_WRI-L1_M012.png,2
+1275_0760080705_01_WRI-R1_F011,1275,1,760080705,F,11.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1275_0760080705_01_WRI-R1_F011.png,2
+4787_1174908641_01_WRI-R1_M013,4787,1,1174908641,M,13.1,R,1,1.0,23r-M/3.1; 23u-E/1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4787_1174908641_01_WRI-R1_M013.png,2
+0479_0888259160_02_WRI-R1_M012,479,2,888259160,M,12.5,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0479_0888259160_02_WRI-R1_M012.png,2
+2645_0552675745_01_WRI-R1_M010,2645,1,552675745,M,10.3,R,1,1.0,23-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2645_0552675745_01_WRI-R1_M010.png,2
+0313_0943585559_01_WRI-R1_F014,313,1,943585559,F,14.9,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0313_0943585559_01_WRI-R1_F014.png,2
+1761_1153740934_02_WRI-L1_F010,1761,2,1153740934,F,10.6,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1761_1153740934_02_WRI-L1_F010.png,2
+4770_0383728202_01_WRI-L1_M011,4770,1,383728202,M,11.3,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4770_0383728202_01_WRI-L1_M011.png,2
+0150_0615531177_01_WRI-L1_F012,150,1,615531177,F,12.9,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0150_0615531177_01_WRI-L1_F012.png,2
+3237_0399018258_02_WRI-L1_M010,3237,2,399018258,M,10.1,L,1,,23r-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3237_0399018258_02_WRI-L1_M010.png,2
+1122_0300776689_01_WRI-L1_M014,1122,1,300776689,M,14.6,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1122_0300776689_01_WRI-L1_M014.png,2
+2648_0921216779_03_WRI-L1_M010,2648,3,921216779,M,10.8,L,1,,23-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2648_0921216779_03_WRI-L1_M010.png,2
+3475_0819064813_01_WRI-R1_F012,3475,1,819064813,F,12.2,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3475_0819064813_01_WRI-R1_F012.png,2
+5565_0534713779_01_WRI-R1_F012,5565,1,534713779,F,12.5,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5565_0534713779_01_WRI-R1_F012.png,2
+5480_0343143758_01_WRI-R1_F012,5480,1,343143758,F,12.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5480_0343143758_01_WRI-R1_F012.png,2
+4571_0822451132_03_WRI-L1_M010,4571,3,822451132,M,10.6,L,1,,23-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4571_0822451132_03_WRI-L1_M010.png,2
+1493_0517931261_03_WRI-L1_F012,1493,3,517931261,F,12.1,L,1,,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1493_0517931261_03_WRI-L1_F012.png,2
+2603_1039455129_01_WRI-R1_M010,2603,1,1039455129,M,10.2,R,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2603_1039455129_01_WRI-R1_M010.png,2
+0472_0542108633_02_WRI-L1_F013,472,2,542108633,F,13.0,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0472_0542108633_02_WRI-L1_F013.png,2
+5444_0687193149_03_WRI-R1_M010,5444,3,687193149,M,10.3,R,1,,23-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5444_0687193149_03_WRI-R1_M010.png,2
+4272_0698349220_02_WRI-L1_M012,4272,2,698349220,M,12.5,L,1,,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4272_0698349220_02_WRI-L1_M012.png,2
+6036_0730699241_01_WRI-L1_M010,6036,1,730699241,M,10.5,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/6036_0730699241_01_WRI-L1_M010.png,2
+3402_1077337339_01_WRI-L1_M010,3402,1,1077337339,M,10.8,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3402_1077337339_01_WRI-L1_M010.png,2
+2063_1151581595_04_WRI-R1_M014,2063,4,1151581595,M,14.2,R,1,,23r-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2063_1151581595_04_WRI-R1_M014.png,2
+4012_1278216799_04_WRI-L1_F011,4012,4,1278216799,F,11.4,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4012_1278216799_04_WRI-L1_F011.png,2
+4688_1101295759_03_WRI-L1_M010,4688,3,1101295759,M,10.3,L,1,,23-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4688_1101295759_03_WRI-L1_M010.png,2
+6080_0827126354_01_WRI-L1_F011,6080,1,827126354,F,11.2,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/6080_0827126354_01_WRI-L1_F011.png,2
+0186_0838523181_01_WRI-L1_M013,186,1,838523181,M,13.7,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0186_0838523181_01_WRI-L1_M013.png,2
+2920_1041298562_04_WRI-R1_M012,2920,4,1041298562,M,12.9,R,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2920_1041298562_04_WRI-R1_M012.png,2
+5775_0274616420_02_WRI-R1_F014,5775,2,274616420,F,14.1,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5775_0274616420_02_WRI-R1_F014.png,2
+4483_0739575779_04_WRI-L1_M012,4483,4,739575779,M,12.2,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4483_0739575779_04_WRI-L1_M012.png,2
+1782_0398776822_02_WRI-L1_M014,1782,2,398776822,M,14.1,L,1,,23-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1782_0398776822_02_WRI-L1_M014.png,2
+4215_0463031538_02_WRI-L1_M010,4215,2,463031538,M,10.4,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4215_0463031538_02_WRI-L1_M010.png,2
+3058_0567103530_01_WRI-R1_F011,3058,1,567103530,F,11.4,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3058_0567103530_01_WRI-R1_F011.png,2
+5011_1074436121_02_WRI-L1_F010,5011,2,1074436121,F,10.8,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5011_1074436121_02_WRI-L1_F010.png,2
+0370_0378843659_01_WRI-R1_F013,370,1,378843659,F,13.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0370_0378843659_01_WRI-R1_F013.png,2
+0855_1027584017_03_WRI-L1_M014,855,3,1027584017,M,14.2,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0855_1027584017_03_WRI-L1_M014.png,2
+3663_0512499553_05_WRI-R1_M013,3663,5,512499553,M,13.8,R,1,,23r-E/2.1; 23u-E/7,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3663_0512499553_05_WRI-R1_M013.png,2
+4828_0989830476_01_WRI-L1_M013,4828,1,989830476,M,13.8,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4828_0989830476_01_WRI-L1_M013.png,2
+4683_0855181828_01_WRI-L1_M011,4683,1,855181828,M,11.4,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4683_0855181828_01_WRI-L1_M011.png,2
+4675_0642162414_01_WRI-L1_F014,4675,1,642162414,F,14.8,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4675_0642162414_01_WRI-L1_F014.png,2
+4831_0811940729_01_WRI-L1_M012,4831,1,811940729,M,12.8,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4831_0811940729_01_WRI-L1_M012.png,2
+5559_0838301437_01_WRI-L1_M014,5559,1,838301437,M,14.0,L,1,1.0,23r-M/2.1,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5559_0838301437_01_WRI-L1_M014.png,2
+0905_0877795900_01_WRI-L1_F013,905,1,877795900,F,13.5,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0905_0877795900_01_WRI-L1_F013.png,2
+2247_1036065500_01_WRI-L1_M013,2247,1,1036065500,M,13.0,L,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2247_1036065500_01_WRI-L1_M013.png,2
+5090_0504464301_01_WRI-L1_F014,5090,1,504464301,F,14.5,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5090_0504464301_01_WRI-L1_F014.png,2
+3841_1072194391_02_WRI-L1_M013,3841,2,1072194391,M,13.4,L,1,,23-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3841_1072194391_02_WRI-L1_M013.png,2
+0909_0331247819_02_WRI-L1_M012,909,2,331247819,M,12.2,L,1,,23r-M/2.1,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0909_0331247819_02_WRI-L1_M012.png,2
+3921_0140177959_01_WRI-L1_F011,3921,1,140177959,F,11.2,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3921_0140177959_01_WRI-L1_F011.png,2
+5227_0411829547_01_WRI-L1_M011,5227,1,411829547,M,11.2,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5227_0411829547_01_WRI-L1_M011.png,2
+2070_0831294728_04_WRI-L1_F012,2070,4,831294728,F,12.4,L,1,,23-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2070_0831294728_04_WRI-L1_F012.png,2
+3566_0976583819_01_WRI-R1_M011,3566,1,976583819,M,11.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3566_0976583819_01_WRI-R1_M011.png,2
+1848_1079844231_03_WRI-R1_F011,1848,3,1079844231,F,11.1,R,1,,23r-E/2.1; 23u-M/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1848_1079844231_03_WRI-R1_F011.png,2
+3603_0858020460_01_WRI-L1_M014,3603,1,858020460,M,14.6,L,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3603_0858020460_01_WRI-L1_M014.png,2
+4599_0938782516_01_WRI-R1_M011,4599,1,938782516,M,11.0,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4599_0938782516_01_WRI-R1_M011.png,2
+3043_0805098254_01_WRI-L1_F014,3043,1,805098254,F,14.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3043_0805098254_01_WRI-L1_F014.png,2
+4883_0234808793_01_WRI-R1_F012,4883,1,234808793,F,12.7,R,1,,,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4883_0234808793_01_WRI-R1_F012.png,2
+3203_0769986148_03_WRI-L1_M012,3203,3,769986148,M,12.8,L,1,,23r-M/3.1; 22u-D/4.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3203_0769986148_03_WRI-L1_M012.png,2
+0337_0237030041_02_WRI-L1_F012,337,2,237030041,F,12.0,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0337_0237030041_02_WRI-L1_F012.png,2
+4043_0915618105_01_WRI-L1_M011,4043,1,915618105,M,11.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4043_0915618105_01_WRI-L1_M011.png,2
+3680_1161383667_01_WRI-R1_F013,3680,1,1161383667,F,13.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3680_1161383667_01_WRI-R1_F013.png,2
+0140_1131587376_01_WRI-R1_F014,140,1,1131587376,F,14.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0140_1131587376_01_WRI-R1_F014.png,2
+3051_0662279967_01_WRI-L1_M014,3051,1,662279967,M,14.9,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3051_0662279967_01_WRI-L1_M014.png,2
+1507_0712349207_01_WRI-L1_M012,1507,1,712349207,M,12.2,L,1,1.0,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1507_0712349207_01_WRI-L1_M012.png,2
+3999_0856725021_02_WRI-L1_M014,3999,2,856725021,M,14.6,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3999_0856725021_02_WRI-L1_M014.png,2
+1684_1001363192_01_WRI-L1_M010,1684,1,1001363192,M,10.7,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1684_1001363192_01_WRI-L1_M010.png,2
+4951_0419405351_01_WRI-R1_M014,4951,1,419405351,M,14.9,R,1,,23-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4951_0419405351_01_WRI-R1_M014.png,2
+0133_0281744388_01_WRI-R1_M014,133,1,281744388,M,14.2,R,1,,23r-M/3.1; 23u-M/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0133_0281744388_01_WRI-R1_M014.png,2
+3657_0627224396_01_WRI-L1_F011,3657,1,627224396,F,11.2,L,1,1.0,23-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3657_0627224396_01_WRI-L1_F011.png,2
+5387_0362967057_01_WRI-R1_F013,5387,1,362967057,F,13.3,R,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5387_0362967057_01_WRI-R1_F013.png,2
+2961_0348970133_01_WRI-R1_M011,2961,1,348970133,M,11.5,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2961_0348970133_01_WRI-R1_M011.png,2
+1994_0872305961_04_WRI-R1_M010,1994,4,872305961,M,10.0,R,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1994_0872305961_04_WRI-R1_M010.png,2
+3818_0914461281_01_WRI-R1_M013,3818,1,914461281,M,13.3,R,1,,23r-M/3.1; 23u-M/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3818_0914461281_01_WRI-R1_M013.png,2
+0542_0297595083_02_WRI-L1_F010,542,2,297595083,F,10.6,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0542_0297595083_02_WRI-L1_F010.png,2
+1320_0385781954_01_WRI-L1_M011,1320,1,385781954,M,11.0,L,1,1.0,,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1320_0385781954_01_WRI-L1_M011.png,2
+0695_0636979973_01_WRI-R1_F012,695,1,636979973,F,12.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0695_0636979973_01_WRI-R1_F012.png,2
+5877_0712568841_01_WRI-R1_F013,5877,1,712568841,F,13.0,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5877_0712568841_01_WRI-R1_F013.png,2
+5066_1052829017_02_WRI-L1_M011,5066,2,1052829017,M,11.5,L,1,,23r-M/3.1; 23u-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5066_1052829017_02_WRI-L1_M011.png,2
+4490_0593066932_01_WRI-R1_F010,4490,1,593066932,F,10.4,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4490_0593066932_01_WRI-R1_F010.png,2
+4526_0791919046_01_WRI-L1_F012,4526,1,791919046,F,12.4,L,1,1.0,23r-M/3.1; 23u-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4526_0791919046_01_WRI-L1_F012.png,2
+1309_0670194872_01_WRI-R1_M012,1309,1,670194872,M,12.1,R,1,,23r-E/2.1; 23u-E/7,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1309_0670194872_01_WRI-R1_M012.png,2
+5130_1026965977_01_WRI-R1_M010,5130,1,1026965977,M,10.5,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5130_1026965977_01_WRI-R1_M010.png,2
+0344_1051607957_02_WRI-R1_F014,344,2,1051607957,F,14.5,R,1,,23r-M/2.1,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0344_1051607957_02_WRI-R1_F014.png,2
+3638_0645816128_01_WRI-R1_F010,3638,1,645816128,F,10.5,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3638_0645816128_01_WRI-R1_F010.png,2
+1185_0826526582_01_WRI-L1_F010,1185,1,826526582,F,10.0,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1185_0826526582_01_WRI-L1_F010.png,2
+5298_0971024327_01_WRI-R1_M013,5298,1,971024327,M,13.0,R,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5298_0971024327_01_WRI-R1_M013.png,2
+0843_1072397744_01_WRI-L1_F013,843,1,1072397744,F,13.7,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0843_1072397744_01_WRI-L1_F013.png,2
+4410_0357351579_02_WRI-L1_M010,4410,2,357351579,M,10.4,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4410_0357351579_02_WRI-L1_M010.png,2
+5988_0348995137_01_WRI-L1_M013,5988,1,348995137,M,13.4,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5988_0348995137_01_WRI-L1_M013.png,2
+1233_0408943965_01_WRI-R1_M014,1233,1,408943965,M,14.8,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1233_0408943965_01_WRI-R1_M014.png,2
+5393_0399104254_01_WRI-L1_M014,5393,1,399104254,M,14.6,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5393_0399104254_01_WRI-L1_M014.png,2
+5571_0514348805_03_WRI-L1_M013,5571,3,514348805,M,13.2,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5571_0514348805_03_WRI-L1_M013.png,2
+5339_0502893944_01_WRI-R1_F012,5339,1,502893944,F,12.0,R,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5339_0502893944_01_WRI-R1_F012.png,2
+5571_0516158714_04_WRI-L1_M013,5571,4,516158714,M,13.3,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5571_0516158714_04_WRI-L1_M013.png,2
+5541_0633698918_01_WRI-R1_M010,5541,1,633698918,M,10.7,R,1,1.0,23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5541_0633698918_01_WRI-R1_M010.png,2
+2464_0486174638_01_WRI-R1_F010,2464,1,486174638,F,10.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2464_0486174638_01_WRI-R1_F010.png,2
+5194_1067504407_01_WRI-L1_M013,5194,1,1067504407,M,13.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5194_1067504407_01_WRI-L1_M013.png,2
+5324_0981338088_02_WRI-L1_M011,5324,2,981338088,M,11.8,L,1,1.0,72B(c),,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5324_0981338088_02_WRI-L1_M011.png,2
+1954_0958633114_01_WRI-L1_F011,1954,1,958633114,F,11.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1954_0958633114_01_WRI-L1_F011.png,2
+5536_0266727941_03_WRI-R1_M013,5536,3,266727941,M,13.8,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5536_0266727941_03_WRI-R1_M013.png,2
+5697_0793614071_02_WRI-L1_M013,5697,2,793614071,M,13.1,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5697_0793614071_02_WRI-L1_M013.png,2
+3355_0451471982_05_WRI-L1_M012,3355,5,451471982,M,12.4,L,1,,23r-M/3.1; 23u-E/3,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3355_0451471982_05_WRI-L1_M012.png,2
+5011_1076919803_04_WRI-L1_F010,5011,4,1076919803,F,10.9,L,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5011_1076919803_04_WRI-L1_F010.png,2
+2964_0926436572_02_WRI-L1_F012,2964,2,926436572,F,12.4,L,1,,23-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2964_0926436572_02_WRI-L1_F012.png,2
+4161_0622072713_02_WRI-L1_F010,4161,2,622072713,F,10.9,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4161_0622072713_02_WRI-L1_F010.png,2
+1283_0493242953_02_WRI-R1_M012,1283,2,493242953,M,12.7,R,1,1.0,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1283_0493242953_02_WRI-R1_M012.png,2
+3656_0981547409_06_WRI-L1_M014,3656,6,981547409,M,14.8,L,1,,23r-E/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3656_0981547409_06_WRI-L1_M014.png,2
+4117_0954425828_01_WRI-L1_M011,4117,1,954425828,M,11.6,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4117_0954425828_01_WRI-L1_M011.png,2
+4672_1042963134_08_WRI-R1_F010,4672,8,1042963134,F,10.4,R,1,,23-E/2.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4672_1042963134_08_WRI-R1_F010.png,2
+6068_0718206675_01_WRI-L1_M013,6068,1,718206675,M,13.5,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/6068_0718206675_01_WRI-L1_M013.png,2
+3991_0548557537_04_WRI-L1_M013,3991,4,548557537,M,13.8,L,1,,23r-M/3.1; 23u-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3991_0548557537_04_WRI-L1_M013.png,2
+2011_0730945719_02_WRI-R1_F010,2011,2,730945719,F,10.2,R,1,1.0,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2011_0730945719_02_WRI-R1_F010.png,2
+4820_0743309955_02_WRI-L1_M014,4820,2,743309955,M,14.2,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4820_0743309955_02_WRI-L1_M014.png,2
+3516_1219492632_01_WRI-L1_F014,3516,1,1219492632,F,14.4,L,1,1.0,23r-M/2.1,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3516_1219492632_01_WRI-L1_F014.png,2
+4936_0673700714_04_WRI-L1_F013,4936,4,673700714,F,13.2,L,1,,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4936_0673700714_04_WRI-L1_F013.png,2
+3490_0224119246_02_WRI-R1_F010,3490,2,224119246,F,10.7,R,1,,23r-E/2.1; 23u-M/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3490_0224119246_02_WRI-R1_F010.png,2
+2004_1115968124_01_WRI-R1_M014,2004,1,1115968124,M,14.8,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2004_1115968124_01_WRI-R1_M014.png,2
+0699_0309464378_04_WRI-L1_M013,699,4,309464378,M,13.9,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0699_0309464378_04_WRI-L1_M013.png,2
+5688_0975919095_02_WRI-L1_M013,5688,2,975919095,M,13.3,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5688_0975919095_02_WRI-L1_M013.png,2
+1191_1247730953_01_WRI-L1_M014,1191,1,1247730953,M,14.5,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1191_1247730953_01_WRI-L1_M014.png,2
+2068_0890032565_01_WRI-L1_F011,2068,1,890032565,F,11.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2068_0890032565_01_WRI-L1_F011.png,2
+1639_0726640189_02_WRI-L1_F011,1639,2,726640189,F,11.9,L,1,,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1639_0726640189_02_WRI-L1_F011.png,2
+1160_0196518514_04_WRI-L1_M010,1160,4,196518514,M,10.1,L,1,,23r-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1160_0196518514_04_WRI-L1_M010.png,2
+2648_0920006005_02_WRI-L1_M010,2648,2,920006005,M,10.7,L,1,,23-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2648_0920006005_02_WRI-L1_M010.png,2
+0944_1211987624_01_WRI-R1_M012,944,1,1211987624,M,12.0,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0944_1211987624_01_WRI-R1_M012.png,2
+2895_0399447834_01_WRI-L1_F012,2895,1,399447834,F,12.0,L,1,,23r-M/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2895_0399447834_01_WRI-L1_F012.png,2
+1792_1191593363_03_WRI-L1_M012,1792,3,1191593363,M,12.2,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1792_1191593363_03_WRI-L1_M012.png,2
+2848_0387153734_01_WRI-L1_M012,2848,1,387153734,M,12.0,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2848_0387153734_01_WRI-L1_M012.png,2
+6045_0784497118_01_WRI-L1_M014,6045,1,784497118,M,14.6,L,1,1.0,23-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/6045_0784497118_01_WRI-L1_M014.png,2
+3785_0214633194_01_WRI-L1_M012,3785,1,214633194,M,12.0,L,1,1.0,23r-E/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3785_0214633194_01_WRI-L1_M012.png,2
+1770_0806195227_04_WRI-R1_M013,1770,4,806195227,M,13.5,R,1,1.0,22r-D/4.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1770_0806195227_04_WRI-R1_M013.png,2
+0058_1187121256_01_WRI-L1_M013,58,1,1187121256,M,13.7,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0058_1187121256_01_WRI-L1_M013.png,2
+6090_0842599897_01_WRI-L1_M011,6090,1,842599897,M,11.0,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/6090_0842599897_01_WRI-L1_M011.png,2
+6070_0733461618_01_WRI-R1_M012,6070,1,733461618,M,12.0,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/6070_0733461618_01_WRI-R1_M012.png,2
+1143_0633014370_02_WRI-L1_M012,1143,2,633014370,M,12.2,L,1,,23r-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1143_0633014370_02_WRI-L1_M012.png,2
+1226_0717020921_03_WRI-L1_F011,1226,3,717020921,F,11.6,L,1,,23r-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1226_0717020921_03_WRI-L1_F011.png,2
+2459_1082972826_01_WRI-R1_F012,2459,1,1082972826,F,12.6,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2459_1082972826_01_WRI-R1_F012.png,2
+4534_0854317163_01_WRI-L1_F014,4534,1,854317163,F,14.5,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4534_0854317163_01_WRI-L1_F014.png,2
+0641_0948652082_03_WRI-R1_F012,641,3,948652082,F,12.8,R,1,,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0641_0948652082_03_WRI-R1_F012.png,2
+0378_0759433188_05_WRI-L1_F013,378,5,759433188,F,13.3,L,1,,23r-M/3.1; 23u-M/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0378_0759433188_05_WRI-L1_F013.png,2
+1748_0921179664_03_WRI-L1_M011,1748,3,921179664,M,11.0,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1748_0921179664_03_WRI-L1_M011.png,2
+5133_1241884132_01_WRI-L1_F010,5133,1,1241884132,F,10.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5133_1241884132_01_WRI-L1_F010.png,2
+3487_0149215543_07_WRI-L1_F011,3487,7,149215543,F,11.8,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3487_0149215543_07_WRI-L1_F011.png,2
+1875_1253479639_01_WRI-R1_F012,1875,1,1253479639,F,12.6,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1875_1253479639_01_WRI-R1_F012.png,2
+5186_0572283140_04_WRI-L1_M011,5186,4,572283140,M,11.4,L,1,,23r-E/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5186_0572283140_04_WRI-L1_M011.png,2
+0205_0928110443_01_WRI-L1_F012,205,1,928110443,F,12.0,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0205_0928110443_01_WRI-L1_F012.png,2
+2241_1074724051_03_WRI-R1_M012,2241,3,1074724051,M,12.6,R,1,,23r-E/2.1;  23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2241_1074724051_03_WRI-R1_M012.png,2
+1298_1098297136_03_WRI-R1_M014,1298,3,1098297136,M,14.5,R,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1298_1098297136_03_WRI-R1_M014.png,2
+3429_0644853862_01_WRI-R1_F013,3429,1,644853862,F,13.2,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3429_0644853862_01_WRI-R1_F013.png,2
+3014_1078408171_01_WRI-L1_F012,3014,1,1078408171,F,12.1,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3014_1078408171_01_WRI-L1_F012.png,2
+0584_1113167861_01_WRI-L1_M013,584,1,1113167861,M,13.5,L,1,1.0,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0584_1113167861_01_WRI-L1_M013.png,2
+1435_1180542249_01_WRI-R1_M010,1435,1,1180542249,M,10.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1435_1180542249_01_WRI-R1_M010.png,2
+5800_0827324013_03_WRI-L1_M011,5800,3,827324013,M,11.9,L,1,,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5800_0827324013_03_WRI-L1_M011.png,2
+5851_0303387033_01_WRI-R1_M011,5851,1,303387033,M,11.5,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5851_0303387033_01_WRI-R1_M011.png,2
+3474_1090445624_01_WRI-L1_M012,3474,1,1090445624,M,12.5,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3474_1090445624_01_WRI-L1_M012.png,2
+5548_0830072898_01_WRI-L1_F010,5548,1,830072898,F,10.7,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5548_0830072898_01_WRI-L1_F010.png,2
+4885_1129200580_01_WRI-L1_M012,4885,1,1129200580,M,12.5,L,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4885_1129200580_01_WRI-L1_M012.png,2
+5076_0693847213_01_WRI-R1_M013,5076,1,693847213,M,13.3,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5076_0693847213_01_WRI-R1_M013.png,2
+5186_0571076054_03_WRI-L1_M011,5186,3,571076054,M,11.3,L,1,,23r-E/2.1; 23u-E/7,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5186_0571076054_03_WRI-L1_M011.png,2
+3047_0860463881_02_WRI-L1_M012,3047,2,860463881,M,12.9,L,1,,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3047_0860463881_02_WRI-L1_M012.png,2
+4305_0946714997_01_WRI-R1_M012,4305,1,946714997,M,12.1,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4305_0946714997_01_WRI-R1_M012.png,2
+0285_0936410030_02_WRI-L1_M014,285,2,936410030,M,14.5,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0285_0936410030_02_WRI-L1_M014.png,2
+3863_0939964670_01_WRI-R1_M013,3863,1,939964670,M,13.0,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3863_0939964670_01_WRI-R1_M013.png,2
+1643_0328435170_02_WRI-L1_F012,1643,2,328435170,F,12.9,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1643_0328435170_02_WRI-L1_F012.png,2
+2880_0994496679_01_WRI-R1_M010,2880,1,994496679,M,10.5,R,1,1.0,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2880_0994496679_01_WRI-R1_M010.png,2
+3355_0453111107_08_WRI-L1_M012,3355,8,453111107,M,12.4,L,1,,23r-M/3.1; 23u-E/3,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3355_0453111107_08_WRI-L1_M012.png,2
+0921_0821006812_01_WRI-L1_F012,921,1,821006812,F,12.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0921_0821006812_01_WRI-L1_F012.png,2
+2694_0594116919_01_WRI-L1_M014,2694,1,594116919,M,14.5,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2694_0594116919_01_WRI-L1_M014.png,2
+0009_1112587669_01_WRI-R1_F013,9,1,1112587669,F,13.2,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0009_1112587669_01_WRI-R1_F013.png,2
+5692_1126371416_01_WRI-L1_M013,5692,1,1126371416,M,13.3,L,1,,23r-E/2.1; 23u-E/7,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5692_1126371416_01_WRI-L1_M013.png,2
+1967_0618409707_02_WRI-L1_M013,1967,2,618409707,M,13.9,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1967_0618409707_02_WRI-L1_M013.png,2
+2142_0634714037_01_WRI-L1_M013,2142,1,634714037,M,13.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2142_0634714037_01_WRI-L1_M013.png,2
+3546_1051255605_01_WRI-L1_M013,3546,1,1051255605,M,13.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3546_1051255605_01_WRI-L1_M013.png,2
+5488_0742225787_01_WRI-L1_M010,5488,1,742225787,M,10.6,L,1,1.0,23-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5488_0742225787_01_WRI-L1_M010.png,2
+4700_0736985463_03_WRI-L1_M013,4700,3,736985463,M,13.5,L,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4700_0736985463_03_WRI-L1_M013.png,2
+3025_0556791892_01_WRI-L1_M012,3025,1,556791892,M,12.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3025_0556791892_01_WRI-L1_M012.png,2
+1123_0926804585_02_WRI-R1_M010,1123,2,926804585,M,10.3,R,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1123_0926804585_02_WRI-R1_M010.png,2
+0251_0732110238_01_WRI-L1_M010,251,1,732110238,M,10.5,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0251_0732110238_01_WRI-L1_M010.png,2
+1516_0234834320_02_WRI-L1_F014,1516,2,234834320,F,14.6,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1516_0234834320_02_WRI-L1_F014.png,2
+5322_0582714423_02_WRI-L1_M010,5322,2,582714423,M,10.1,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5322_0582714423_02_WRI-L1_M010.png,2
+2551_0800745676_02_WRI-L1_M014,2551,2,800745676,M,14.5,L,1,,22r-D/4.1; 23u-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2551_0800745676_02_WRI-L1_M014.png,2
+5757_0412055710_01_WRI-L1_M014,5757,1,412055710,M,14.2,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5757_0412055710_01_WRI-L1_M014.png,2
+2837_0352529133_05_WRI-R1_M013,2837,5,352529133,M,13.6,R,1,,23r-E/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2837_0352529133_05_WRI-R1_M013.png,2
+0342_0525838701_06_WRI-R1_M012,342,6,525838701,M,12.7,R,1,,23-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0342_0525838701_06_WRI-R1_M012.png,2
+3595_1105629193_03_WRI-L1_M012,3595,3,1105629193,M,12.8,L,1,,23-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3595_1105629193_03_WRI-L1_M012.png,2
+5730_0363979493_01_WRI-R1_F014,5730,1,363979493,F,14.5,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5730_0363979493_01_WRI-R1_F014.png,2
+1027_1023101913_01_WRI-L1_M012,1027,1,1023101913,M,12.0,L,1,1.0,23r-E/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1027_1023101913_01_WRI-L1_M012.png,2
+2660_0621140941_01_WRI-R1_M013,2660,1,621140941,M,13.0,R,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2660_0621140941_01_WRI-R1_M013.png,2
+1939_0276881912_01_WRI-R1_M011,1939,1,276881912,M,11.9,R,1,,,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1939_0276881912_01_WRI-R1_M011.png,2
+3797_0590791590_01_WRI-R1_M010,3797,1,590791590,M,10.0,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3797_0590791590_01_WRI-R1_M010.png,2
+5031_0773369081_01_WRI-L1_M014,5031,1,773369081,M,14.9,L,1,1.0,23r-E/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5031_0773369081_01_WRI-L1_M014.png,2
+0074_0778270458_01_WRI-L1_F010,74,1,778270458,F,10.0,L,1,1.0,23r-E/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0074_0778270458_01_WRI-L1_F010.png,2
+4608_0925228667_01_WRI-L1_F011,4608,1,925228667,F,11.4,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4608_0925228667_01_WRI-L1_F011.png,2
+0077_1156321403_01_WRI-R1_M011,77,1,1156321403,M,11.5,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0077_1156321403_01_WRI-R1_M011.png,2
+1342_0926549905_02_WRI-L1_F012,1342,2,926549905,F,12.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1342_0926549905_02_WRI-L1_F012.png,2
+3174_0576308862_02_WRI-R1_M013,3174,2,576308862,M,13.8,R,1,,23r-M/2.1; 23u-E/3,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3174_0576308862_02_WRI-R1_M013.png,2
+5296_0410879944_02_WRI-R1_M012,5296,2,410879944,M,12.1,R,1,,23r-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5296_0410879944_02_WRI-R1_M012.png,2
+0677_0480064233_02_WRI-L1_M010,677,2,480064233,M,10.2,L,1,,23r-E/1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0677_0480064233_02_WRI-L1_M010.png,2
+5463_0801714723_01_WRI-L1_M010,5463,1,801714723,M,10.1,L,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5463_0801714723_01_WRI-L1_M010.png,2
+5922_0907307882_05_WRI-L1_F012,5922,5,907307882,F,12.4,L,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5922_0907307882_05_WRI-L1_F012.png,2
+0711_0441214298_01_WRI-R1_F014,711,1,441214298,F,14.7,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0711_0441214298_01_WRI-R1_F014.png,2
+5940_0226265692_02_WRI-L1_F011,5940,2,226265692,F,11.7,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5940_0226265692_02_WRI-L1_F011.png,2
+1873_0908328049_01_WRI-L1_F011,1873,1,908328049,F,11.9,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1873_0908328049_01_WRI-L1_F011.png,2
+3219_0987993216_02_WRI-R1_F012,3219,2,987993216,F,12.1,R,1,1.0,,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3219_0987993216_02_WRI-R1_F012.png,2
+0232_0753164770_02_WRI-L1_M013,232,2,753164770,M,13.3,L,1,,23r-M/2.1,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0232_0753164770_02_WRI-L1_M013.png,2
+2755_0706682088_01_WRI-R1_M013,2755,1,706682088,M,13.8,R,1,,23-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2755_0706682088_01_WRI-R1_M013.png,2
+5848_0975642498_01_WRI-R1_M011,5848,1,975642498,M,11.1,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5848_0975642498_01_WRI-R1_M011.png,2
+2492_1065444213_01_WRI-R1_M010,2492,1,1065444213,M,10.0,R,1,1.0,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2492_1065444213_01_WRI-R1_M010.png,2
+5657_0890295663_01_WRI-R1_M011,5657,1,890295663,M,11.0,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5657_0890295663_01_WRI-R1_M011.png,2
+0611_0470785440_02_WRI-L1_F014,611,2,470785440,F,14.0,L,1,,23r-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0611_0470785440_02_WRI-L1_F014.png,2
+5947_0774823917_01_WRI-L1_M013,5947,1,774823917,M,13.9,L,1,1.0,23-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5947_0774823917_01_WRI-L1_M013.png,2
+0808_0322686747_03_WRI-L1_F010,808,3,322686747,F,10.9,L,1,,,,,1.0,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0808_0322686747_03_WRI-L1_F010.png,2
+2837_0350719178_04_WRI-R1_M013,2837,4,350719178,M,13.6,R,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2837_0350719178_04_WRI-R1_M013.png,2
+2157_0998197067_02_WRI-L1_M012,2157,2,998197067,M,12.0,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2157_0998197067_02_WRI-L1_M012.png,2
+0223_0453462331_01_WRI-R1_F014,223,1,453462331,F,14.0,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0223_0453462331_01_WRI-R1_F014.png,2
+1401_0734091310_06_WRI-L1_M014,1401,6,734091310,M,14.8,L,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1401_0734091310_06_WRI-L1_M014.png,2
+5221_0435420926_06_WRI-L1_M013,5221,6,435420926,M,13.6,L,1,,23r-E/2.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5221_0435420926_06_WRI-L1_M013.png,2
+4890_0813062018_04_WRI-R1_F012,4890,4,813062018,F,12.2,R,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4890_0813062018_04_WRI-R1_F012.png,2
+1442_0959156913_02_WRI-L1_M013,1442,2,959156913,M,13.7,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1442_0959156913_02_WRI-L1_M013.png,2
+4323_1014035448_01_WRI-R1_M010,4323,1,1014035448,M,10.9,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4323_1014035448_01_WRI-R1_M010.png,2
+0079_0555388535_03_WRI-L1_M010,79,3,555388535,M,10.7,L,1,,23r-E/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0079_0555388535_03_WRI-L1_M010.png,2
+0892_1273117374_01_WRI-R1_F010,892,1,1273117374,F,10.0,R,1,1.0,23r-E/2.1; 23u-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0892_1273117374_01_WRI-R1_F010.png,2
+4885_1132087190_02_WRI-L1_M012,4885,2,1132087190,M,12.6,L,1,,23-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4885_1132087190_02_WRI-L1_M012.png,2
+4891_0935989047_01_WRI-R1_M011,4891,1,935989047,M,11.0,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4891_0935989047_01_WRI-R1_M011.png,2
+4941_0459989092_01_WRI-R1_F010,4941,1,459989092,F,10.7,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4941_0459989092_01_WRI-R1_F010.png,2
+2476_0350192073_01_WRI-R1_M013,2476,1,350192073,M,13.9,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2476_0350192073_01_WRI-R1_M013.png,2
+3104_0728873284_01_WRI-L1_F013,3104,1,728873284,F,13.3,L,1,,,,1.0,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3104_0728873284_01_WRI-L1_F013.png,2
+4798_1132836119_04_WRI-L1_F010,4798,4,1132836119,F,10.8,L,1,,23r-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4798_1132836119_04_WRI-L1_F010.png,2
+2445_0253479192_01_WRI-L1_F012,2445,1,253479192,F,12.2,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2445_0253479192_01_WRI-L1_F012.png,2
+4161_0623443495_04_WRI-L1_F010,4161,4,623443495,F,10.9,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4161_0623443495_04_WRI-L1_F010.png,2
+3551_0496565567_02_WRI-L1_F010,3551,2,496565567,F,10.9,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3551_0496565567_02_WRI-L1_F010.png,2
+2301_1098712139_01_WRI-L1_M013,2301,1,1098712139,M,13.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2301_1098712139_01_WRI-L1_M013.png,2
+2186_1198029864_01_WRI-L1_M012,2186,1,1198029864,M,12.1,L,1,1.0,,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2186_1198029864_01_WRI-L1_M012.png,2
+2473_0495801199_03_WRI-R1_M014,2473,3,495801199,M,14.7,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2473_0495801199_03_WRI-R1_M014.png,2
+3873_0323215742_01_WRI-L1_M013,3873,1,323215742,M,13.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3873_0323215742_01_WRI-L1_M013.png,2
+2898_0832274444_03_WRI-R1_M010,2898,3,832274444,M,10.6,R,1,,23r-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2898_0832274444_03_WRI-R1_M010.png,2
+4786_1106541484_01_WRI-L1_M012,4786,1,1106541484,M,12.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4786_1106541484_01_WRI-L1_M012.png,2
+4817_0931614355_02_WRI-L1_M010,4817,2,931614355,M,10.7,L,1,,23r-E/2.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4817_0931614355_02_WRI-L1_M010.png,2
+5533_1117635739_06_WRI-R1_F010,5533,6,1117635739,F,10.0,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5533_1117635739_06_WRI-R1_F010.png,2
+1308_1057752144_01_WRI-L1_F011,1308,1,1057752144,F,11.9,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1308_1057752144_01_WRI-L1_F011.png,2
+3225_0439451943_01_WRI-R1_M013,3225,1,439451943,M,13.4,R,1,1.0,72B(c),,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3225_0439451943_01_WRI-R1_M013.png,2
+1375_0308361104_04_WRI-L1_M011,1375,4,308361104,M,11.1,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1375_0308361104_04_WRI-L1_M011.png,2
+4166_0483440090_01_WRI-R1_F014,4166,1,483440090,F,14.4,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4166_0483440090_01_WRI-R1_F014.png,2
+4920_0883517728_01_WRI-L1_M013,4920,1,883517728,M,13.7,L,1,1.0,23r-E/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4920_0883517728_01_WRI-L1_M013.png,2
+3994_0482391606_02_WRI-L1_M010,3994,2,482391606,M,10.9,L,1,,23r-E/2.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3994_0482391606_02_WRI-L1_M010.png,2
+1959_0303321787_02_WRI-R1_M010,1959,2,303321787,M,10.5,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1959_0303321787_02_WRI-R1_M010.png,2
+1984_0323598604_01_WRI-L1_F011,1984,1,323598604,F,11.2,L,1,1.0,23-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1984_0323598604_01_WRI-L1_F011.png,2
+4857_1142512150_03_WRI-L1_M014,4857,3,1142512150,M,14.4,L,1,,23-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4857_1142512150_03_WRI-L1_M014.png,2
+0206_0717338767_01_WRI-R1_M013,206,1,717338767,M,13.1,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0206_0717338767_01_WRI-R1_M013.png,2
+4461_0318728475_02_WRI-L1_F011,4461,2,318728475,F,11.2,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4461_0318728475_02_WRI-L1_F011.png,2
+2012_0271688860_01_WRI-R1_F014,2012,1,271688860,F,14.1,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2012_0271688860_01_WRI-R1_F014.png,2
+0297_0429500118_01_WRI-L1_M011,297,1,429500118,M,11.2,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0297_0429500118_01_WRI-L1_M011.png,2
+3363_0267903474_01_WRI-L1_M011,3363,1,267903474,M,11.7,L,1,,23-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3363_0267903474_01_WRI-L1_M011.png,2
+5722_0317115005_01_WRI-R1_F013,5722,1,317115005,F,13.1,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5722_0317115005_01_WRI-R1_F013.png,2
+0387_0948727263_01_WRI-R1_M012,387,1,948727263,M,12.5,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0387_0948727263_01_WRI-R1_M012.png,2
+4431_0253089947_01_WRI-R1_M010,4431,1,253089947,M,10.2,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4431_0253089947_01_WRI-R1_M010.png,2
+3456_1251391889_01_WRI-L1_F012,3456,1,1251391889,F,12.1,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3456_1251391889_01_WRI-L1_F012.png,2
+4864_1146573105_01_WRI-R1_F010,4864,1,1146573105,F,10.7,R,1,,23r-M/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4864_1146573105_01_WRI-R1_F010.png,2
+0364_0805436256_01_WRI-R1_F013,364,1,805436256,F,13.9,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0364_0805436256_01_WRI-R1_F013.png,2
+1515_1002303209_03_WRI-L1_M011,1515,3,1002303209,M,11.9,L,1,,23r-E/2.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1515_1002303209_03_WRI-L1_M011.png,2
+0889_0989268657_01_WRI-R1_F012,889,1,989268657,F,12.4,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0889_0989268657_01_WRI-R1_F012.png,2
+4985_0934983563_01_WRI-L1_M013,4985,1,934983563,M,13.9,L,1,1.0,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4985_0934983563_01_WRI-L1_M013.png,2
+5962_1114067620_01_WRI-L1_M010,5962,1,1114067620,M,10.1,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5962_1114067620_01_WRI-L1_M010.png,2
+0763_0628678849_01_WRI-R1_M011,763,1,628678849,M,11.7,R,1,1.0,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0763_0628678849_01_WRI-R1_M011.png,2
+4415_0785565431_01_WRI-L1_M010,4415,1,785565431,M,10.9,L,1,1.0,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4415_0785565431_01_WRI-L1_M010.png,2
+0375_0705909801_02_WRI-L1_F013,375,2,705909801,F,13.2,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0375_0705909801_02_WRI-L1_F013.png,2
+0241_0753800824_03_WRI-L1_M014,241,3,753800824,M,14.2,L,1,,23r-E/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0241_0753800824_03_WRI-L1_M014.png,2
+4559_0891678914_02_WRI-L1_M011,4559,2,891678914,M,11.6,L,1,,23r-E/2.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4559_0891678914_02_WRI-L1_M011.png,2
+4299_0640596667_04_WRI-L1_M012,4299,4,640596667,M,12.5,L,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4299_0640596667_04_WRI-L1_M012.png,2
+5808_1201529145_01_WRI-R1_M011,5808,1,1201529145,M,11.5,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5808_1201529145_01_WRI-R1_M011.png,2
+4938_0750978986_01_WRI-R1_F014,4938,1,750978986,F,14.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4938_0750978986_01_WRI-R1_F014.png,2
+3424_1162942849_03_WRI-L1_M014,3424,3,1162942849,M,14.5,L,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3424_1162942849_03_WRI-L1_M014.png,2
+2625_0225122714_01_WRI-R1_M014,2625,1,225122714,M,14.5,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2625_0225122714_01_WRI-R1_M014.png,2
+5296_0409075362_01_WRI-R1_M012,5296,1,409075362,M,12.0,R,1,1.0,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5296_0409075362_01_WRI-R1_M012.png,2
+1745_0499635508_04_WRI-L1_M010,1745,4,499635508,M,10.9,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1745_0499635508_04_WRI-L1_M010.png,2
+2686_0480999457_03_WRI-L1_F014,2686,3,480999457,F,14.9,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2686_0480999457_03_WRI-L1_F014.png,2
+2690_0737554530_01_WRI-R1_F013,2690,1,737554530,F,13.6,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2690_0737554530_01_WRI-R1_F013.png,2
+0848_1108257595_01_WRI-R1_M011,848,1,1108257595,M,11.9,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0848_1108257595_01_WRI-R1_M011.png,2
+3818_0915067203_03_WRI-R1_M013,3818,3,915067203,M,13.3,R,1,,23r-M/3.1; 23u-M/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3818_0915067203_03_WRI-R1_M013.png,2
+5357_0716739791_04_WRI-R1_M013,5357,4,716739791,M,13.3,R,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5357_0716739791_04_WRI-R1_M013.png,2
+1420_0706656094_02_WRI-L1_M014,1420,2,706656094,M,14.0,L,1,1.0,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1420_0706656094_02_WRI-L1_M014.png,2
+3369_1186218746_04_WRI-L1_M011,3369,4,1186218746,M,11.2,L,1,,23r-E/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3369_1186218746_04_WRI-L1_M011.png,2
+4648_0243828647_02_WRI-R1_F010,4648,2,243828647,F,10.1,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4648_0243828647_02_WRI-R1_F010.png,2
+4161_0622069474_01_WRI-L1_F010,4161,1,622069474,F,10.9,L,1,1.0,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4161_0622069474_01_WRI-L1_F010.png,2
+2624_1107244963_01_WRI-R1_F012,2624,1,1107244963,F,12.1,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2624_1107244963_01_WRI-R1_F012.png,2
+3639_0775317467_02_WRI-R1_M012,3639,2,775317467,M,12.0,R,1,,23r-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3639_0775317467_02_WRI-R1_M012.png,2
+3180_0733069175_01_WRI-R1_M012,3180,1,733069175,M,12.1,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3180_0733069175_01_WRI-R1_M012.png,2
+3992_0661115876_05_WRI-L1_M011,3992,5,661115876,M,11.1,L,1,,23r-E/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3992_0661115876_05_WRI-L1_M011.png,2
+4737_0091826996_01_WRI-L1_M012,4737,1,91826996,M,12.1,L,1,1.0,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4737_0091826996_01_WRI-L1_M012.png,2
+0639_1118255040_01_WRI-R1_M010,639,1,1118255040,M,10.8,R,1,,23r-E/2.1,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0639_1118255040_01_WRI-R1_M010.png,2
+3188_0617511323_02_WRI-L1_F012,3188,2,617511323,F,12.5,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3188_0617511323_02_WRI-L1_F012.png,2
+2751_1148778718_03_WRI-L1_M014,2751,3,1148778718,M,14.6,L,1,,23r-M/3.1; 23u-M/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2751_1148778718_03_WRI-L1_M014.png,2
+1977_0498271917_01_WRI-L1_F013,1977,1,498271917,F,13.0,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1977_0498271917_01_WRI-L1_F013.png,2
+4186_0288020189_02_WRI-L1_M013,4186,2,288020189,M,13.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4186_0288020189_02_WRI-L1_M013.png,2
+0436_0621485593_01_WRI-R1_M010,436,1,621485593,M,10.1,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0436_0621485593_01_WRI-R1_M010.png,2
+0380_0297671376_01_WRI-L1_M010,380,1,297671376,M,10.2,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0380_0297671376_01_WRI-L1_M010.png,2
+3656_0978863164_01_WRI-L1_M014,3656,1,978863164,M,14.7,L,1,1.0,23r-E/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3656_0978863164_01_WRI-L1_M014.png,2
+0185_0545486805_01_WRI-R1_M010,185,1,545486805,M,10.3,R,1,1.0,23-M/2.1; 22u-D/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0185_0545486805_01_WRI-R1_M010.png,2
+5636_0946057573_02_WRI-L1_F011,5636,2,946057573,F,11.2,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5636_0946057573_02_WRI-L1_F011.png,2
+3254_0327981191_01_WRI-R1_M010,3254,1,327981191,M,10.7,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3254_0327981191_01_WRI-R1_M010.png,2
+1785_0774596627_01_WRI-L1_F010,1785,1,774596627,F,10.8,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1785_0774596627_01_WRI-L1_F010.png,2
+5326_0625782305_02_WRI-L1_M013,5326,2,625782305,M,13.8,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5326_0625782305_02_WRI-L1_M013.png,2
+5058_1245893675_05_WRI-R1_M011,5058,5,1245893675,M,11.6,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5058_1245893675_05_WRI-R1_M011.png,2
+0041_0846362218_01_WRI-R1_M010,41,1,846362218,M,10.5,R,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0041_0846362218_01_WRI-R1_M010.png,2
+4435_0480056700_04_WRI-R1_M012,4435,4,480056700,M,12.3,R,1,,23r-E/2.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4435_0480056700_04_WRI-R1_M012.png,2
+1782_0399628654_03_WRI-L1_M014,1782,3,399628654,M,14.1,L,1,,23-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1782_0399628654_03_WRI-L1_M014.png,2
+0461_0305348251_02_WRI-R1_M014,461,2,305348251,M,14.2,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0461_0305348251_02_WRI-R1_M014.png,2
+4266_0676933640_01_WRI-R1_M013,4266,1,676933640,M,13.3,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4266_0676933640_01_WRI-R1_M013.png,2
+4464_0993967121_03_WRI-L1_M011,4464,3,993967121,M,11.7,L,1,,23-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4464_0993967121_03_WRI-L1_M011.png,2
+5004_0825947587_03_WRI-L1_F013,5004,3,825947587,F,13.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5004_0825947587_03_WRI-L1_F013.png,2
+3255_0835387025_01_WRI-L1_M010,3255,1,835387025,M,10.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3255_0835387025_01_WRI-L1_M010.png,2
+4727_1054336587_03_WRI-L1_M010,4727,3,1054336587,M,10.5,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4727_1054336587_03_WRI-L1_M010.png,2
+1009_1046956858_06_WRI-R1_M013,1009,6,1046956858,M,13.3,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1009_1046956858_06_WRI-R1_M013.png,2
+4530_0775036514_01_WRI-L1_M010,4530,1,775036514,M,10.3,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4530_0775036514_01_WRI-L1_M010.png,2
+0490_0671612454_02_WRI-R1_F012,490,2,671612454,F,12.5,R,1,,23r-E/2.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0490_0671612454_02_WRI-R1_F012.png,2
+5948_1030633826_01_WRI-R1_M014,5948,1,1030633826,M,14.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5948_1030633826_01_WRI-R1_M014.png,2
+0168_0510330641_01_WRI-R1_M012,168,1,510330641,M,12.6,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0168_0510330641_01_WRI-R1_M012.png,2
+0781_1152944386_01_WRI-L1_F010,781,1,1152944386,F,10.3,L,1,1.0,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0781_1152944386_01_WRI-L1_F010.png,2
+4679_0369884437_01_WRI-L1_F011,4679,1,369884437,F,11.2,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4679_0369884437_01_WRI-L1_F011.png,2
+3337_0546503748_01_WRI-R1_F014,3337,1,546503748,F,14.4,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3337_0546503748_01_WRI-R1_F014.png,2
+4786_1106541410_01_WRI-R1_M012,4786,1,1106541410,M,12.1,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4786_1106541410_01_WRI-R1_M012.png,2
+2602_0742553923_01_WRI-L1_M014,2602,1,742553923,M,14.0,L,1,1.0,23-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2602_0742553923_01_WRI-L1_M014.png,2
+1599_1069129302_03_WRI-R1_M013,1599,3,1069129302,M,13.1,R,1,,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1599_1069129302_03_WRI-R1_M013.png,2
+1770_0805209954_02_WRI-L1_M013,1770,2,805209954,M,13.5,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1770_0805209954_02_WRI-L1_M013.png,2
+4341_0971012016_01_WRI-L1_M010,4341,1,971012016,M,10.4,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4341_0971012016_01_WRI-L1_M010.png,2
+3721_0196725502_01_WRI-L1_F010,3721,1,196725502,F,10.6,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3721_0196725502_01_WRI-L1_F010.png,2
+5529_1122674132_01_WRI-R1_M010,5529,1,1122674132,M,10.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5529_1122674132_01_WRI-R1_M010.png,2
+0867_0755928227_01_WRI-L1_F010,867,1,755928227,F,10.9,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0867_0755928227_01_WRI-L1_F010.png,2
+2716_0842514879_03_WRI-L1_M012,2716,3,842514879,M,12.5,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2716_0842514879_03_WRI-L1_M012.png,2
+2519_0837077707_02_WRI-R1_M010,2519,2,837077707,M,10.7,R,1,,23r-E/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2519_0837077707_02_WRI-R1_M010.png,2
+1671_1142449984_01_WRI-R1_F012,1671,1,1142449984,F,12.7,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1671_1142449984_01_WRI-R1_F012.png,2
+1746_0313948407_01_WRI-L1_M014,1746,1,313948407,M,14.5,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1746_0313948407_01_WRI-L1_M014.png,2
+3230_0935320976_01_WRI-L1_F011,3230,1,935320976,F,11.4,L,1,1.0,23r-M/3.1; 23u-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3230_0935320976_01_WRI-L1_F011.png,2
+5227_0412427949_02_WRI-L1_M011,5227,2,412427949,M,11.3,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5227_0412427949_02_WRI-L1_M011.png,2
+5750_0958065322_01_WRI-R1_M014,5750,1,958065322,M,14.1,R,1,1.0,,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5750_0958065322_01_WRI-R1_M014.png,2
+1186_0602497937_01_WRI-L1_M011,1186,1,602497937,M,11.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1186_0602497937_01_WRI-L1_M011.png,2
+3613_0310836724_02_WRI-L1_M013,3613,2,310836724,M,13.1,L,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3613_0310836724_02_WRI-L1_M013.png,2
+2117_0384616942_01_WRI-R1_M011,2117,1,384616942,M,11.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2117_0384616942_01_WRI-R1_M011.png,2
+2034_0618858436_04_WRI-L1_M010,2034,4,618858436,M,10.5,L,1,,22-D/4.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2034_0618858436_04_WRI-L1_M010.png,2
+5278_0852417216_02_WRI-R1_F013,5278,2,852417216,F,13.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5278_0852417216_02_WRI-R1_F013.png,2
+1869_0249672149_01_WRI-L1_M011,1869,1,249672149,M,11.4,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1869_0249672149_01_WRI-L1_M011.png,2
+5773_0395483706_03_WRI-R1_F012,5773,3,395483706,F,12.3,R,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5773_0395483706_03_WRI-R1_F012.png,2
+3608_1256063880_01_WRI-R1_F010,3608,1,1256063880,F,10.8,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3608_1256063880_01_WRI-R1_F010.png,2
+1377_0952285405_01_WRI-R1_M010,1377,1,952285405,M,10.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1377_0952285405_01_WRI-R1_M010.png,2
+4672_1039335116_02_WRI-L1_F010,4672,2,1039335116,F,10.3,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4672_1039335116_02_WRI-L1_F010.png,2
+1181_0558300671_01_WRI-L1_F010,1181,1,558300671,F,10.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1181_0558300671_01_WRI-L1_F010.png,2
+5731_0645719765_01_WRI-R1_F013,5731,1,645719765,F,13.8,R,1,1.0,23r-M/2.1,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5731_0645719765_01_WRI-R1_F013.png,2
+3615_0566174065_01_WRI-L1_F014,3615,1,566174065,F,14.6,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3615_0566174065_01_WRI-L1_F014.png,2
+4559_0892703440_04_WRI-L1_M011,4559,4,892703440,M,11.6,L,1,,23r-E/2.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4559_0892703440_04_WRI-L1_M011.png,2
+4327_0453147837_03_WRI-R1_F011,4327,3,453147837,F,11.7,R,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4327_0453147837_03_WRI-R1_F011.png,2
+4525_0600278859_01_WRI-R1_M011,4525,1,600278859,M,11.2,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4525_0600278859_01_WRI-R1_M011.png,2
+0235_0825087657_01_WRI-R1_F012,235,1,825087657,F,12.9,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0235_0825087657_01_WRI-R1_F012.png,2
+2773_0384244861_02_WRI-R1_M011,2773,2,384244861,M,11.5,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2773_0384244861_02_WRI-R1_M011.png,2
+0167_0975764652_01_WRI-R1_F011,167,1,975764652,F,11.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0167_0975764652_01_WRI-R1_F011.png,2
+2944_0537916357_02_WRI-R1_F011,2944,2,537916357,F,11.1,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2944_0537916357_02_WRI-R1_F011.png,2
+3860_0896242408_01_WRI-L1_F012,3860,1,896242408,F,12.7,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3860_0896242408_01_WRI-L1_F012.png,2
+4802_0153741763_01_WRI-R1_M011,4802,1,153741763,M,11.6,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4802_0153741763_01_WRI-R1_M011.png,2
+2217_0290479753_03_WRI-L1_M010,2217,3,290479753,M,10.6,L,1,,23r-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2217_0290479753_03_WRI-L1_M010.png,2
+5581_0361054313_01_WRI-R1_M013,5581,1,361054313,M,13.6,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5581_0361054313_01_WRI-R1_M013.png,2
+4137_1035946946_04_WRI-R1_M014,4137,4,1035946946,M,14.1,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4137_1035946946_04_WRI-R1_M014.png,2
+4400_0740873918_01_WRI-R1_M012,4400,1,740873918,M,12.1,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4400_0740873918_01_WRI-R1_M012.png,2
+4692_0832317870_02_WRI-R1_M012,4692,2,832317870,M,12.8,R,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4692_0832317870_02_WRI-R1_M012.png,2
+1233_0409552004_03_WRI-R1_M014,1233,3,409552004,M,14.8,R,1,,23r-M/3.1; 23u-E/7,1.0,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1233_0409552004_03_WRI-R1_M014.png,2
+4934_0364256478_01_WRI-L1_F014,4934,1,364256478,F,14.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4934_0364256478_01_WRI-L1_F014.png,2
+1647_0880461315_01_WRI-R1_M013,1647,1,880461315,M,13.0,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1647_0880461315_01_WRI-R1_M013.png,2
+0590_0594914667_04_WRI-L1_M013,590,4,594914667,M,13.8,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0590_0594914667_04_WRI-L1_M013.png,2
+3136_0339818046_01_WRI-R1_F012,3136,1,339818046,F,12.8,R,1,1.0,,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3136_0339818046_01_WRI-R1_F012.png,2
+5333_1015227850_01_WRI-R1_F010,5333,1,1015227850,F,10.9,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5333_1015227850_01_WRI-R1_F010.png,2
+2846_0818877567_01_WRI-R1_F011,2846,1,818877567,F,11.7,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2846_0818877567_01_WRI-R1_F011.png,2
+5878_0899053846_01_WRI-R1_M012,5878,1,899053846,M,12.1,R,1,1.0,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5878_0899053846_01_WRI-R1_M012.png,2
+4672_1040552909_04_WRI-L1_F010,4672,4,1040552909,F,10.3,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4672_1040552909_04_WRI-L1_F010.png,2
+5074_0872068343_01_WRI-R1_M010,5074,1,872068343,M,10.3,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5074_0872068343_01_WRI-R1_M010.png,2
+4228_0627665976_01_WRI-L1_F013,4228,1,627665976,F,13.6,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4228_0627665976_01_WRI-L1_F013.png,2
+0886_0573838735_01_WRI-R1_F014,886,1,573838735,F,14.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0886_0573838735_01_WRI-R1_F014.png,2
+4313_0451538851_01_WRI-L1_M012,4313,1,451538851,M,12.9,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4313_0451538851_01_WRI-L1_M012.png,2
+1432_0427842131_01_WRI-L1_F013,1432,1,427842131,F,13.1,L,1,,23r-M/2.1; 23u-M/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1432_0427842131_01_WRI-L1_F013.png,2
+5580_0535822589_01_WRI-R1_M010,5580,1,535822589,M,10.4,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5580_0535822589_01_WRI-R1_M010.png,2
+3651_0211653477_01_WRI-L1_F012,3651,1,211653477,F,12.2,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3651_0211653477_01_WRI-L1_F012.png,2
+4498_0637407072_01_WRI-L1_M014,4498,1,637407072,M,14.7,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4498_0637407072_01_WRI-L1_M014.png,2
+0101_0623472531_01_WRI-R1_M012,101,1,623472531,M,12.2,R,1,1.0,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0101_0623472531_01_WRI-R1_M012.png,2
+5056_0999781207_02_WRI-R1_F011,5056,2,999781207,F,11.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5056_0999781207_02_WRI-R1_F011.png,2
+1409_0516147572_05_WRI-R1_M013,1409,5,516147572,M,13.2,R,1,,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1409_0516147572_05_WRI-R1_M013.png,2
+2197_0679813983_02_WRI-L1_F012,2197,2,679813983,F,12.2,L,1,,23r-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2197_0679813983_02_WRI-L1_F012.png,2
+3888_0121251374_01_WRI-R1_F011,3888,1,121251374,F,11.9,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3888_0121251374_01_WRI-R1_F011.png,2
+3460_1241632301_03_WRI-R1_F013,3460,3,1241632301,F,13.2,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3460_1241632301_03_WRI-R1_F013.png,2
+0079_0554009487_01_WRI-L1_M010,79,1,554009487,M,10.7,L,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0079_0554009487_01_WRI-L1_M010.png,2
+3399_0686820457_01_WRI-L1_M013,3399,1,686820457,M,13.6,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3399_0686820457_01_WRI-L1_M013.png,2
+1512_0397065534_02_WRI-L1_M011,1512,2,397065534,M,11.9,L,1,,,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1512_0397065534_02_WRI-L1_M011.png,2
+5182_1193989078_02_WRI-R1_M013,5182,2,1193989078,M,13.3,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5182_1193989078_02_WRI-R1_M013.png,2
+4869_0211085962_01_WRI-R1_M011,4869,1,211085962,M,11.6,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4869_0211085962_01_WRI-R1_M011.png,2
+5463_0822017058_03_WRI-L1_M010,5463,3,822017058,M,10.7,L,1,,,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5463_0822017058_03_WRI-L1_M010.png,2
+1404_0614517562_01_WRI-L1_F013,1404,1,614517562,F,13.8,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1404_0614517562_01_WRI-L1_F013.png,2
+1410_0529917269_01_WRI-R1_M011,1410,1,529917269,M,11.4,R,1,1.0,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1410_0529917269_01_WRI-R1_M011.png,2
+3379_0352721471_01_WRI-L1_M010,3379,1,352721471,M,10.1,L,1,1.0,23-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3379_0352721471_01_WRI-L1_M010.png,2
+4531_0604444886_01_WRI-L1_M013,4531,1,604444886,M,13.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4531_0604444886_01_WRI-L1_M013.png,2
+1631_0462559867_04_WRI-L1_M012,1631,4,462559867,M,12.1,L,1,,23-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1631_0462559867_04_WRI-L1_M012.png,2
+4873_0622793221_01_WRI-L1_M012,4873,1,622793221,M,12.9,L,1,,23r-M/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4873_0622793221_01_WRI-L1_M012.png,2
+2863_0623094652_01_WRI-L1_F011,2863,1,623094652,F,11.7,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2863_0623094652_01_WRI-L1_F011.png,2
+5062_0499284976_01_WRI-L1_M014,5062,1,499284976,M,14.1,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5062_0499284976_01_WRI-L1_M014.png,2
+0687_0609751064_01_WRI-L1_F010,687,1,609751064,F,10.2,L,1,1.0,23r-E/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0687_0609751064_01_WRI-L1_F010.png,2
+3042_0547210064_01_WRI-L1_M010,3042,1,547210064,M,10.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3042_0547210064_01_WRI-L1_M010.png,2
+0225_0742039603_05_WRI-L1_M012,225,5,742039603,M,12.9,L,1,,23r-E/1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0225_0742039603_05_WRI-L1_M012.png,2
+5298_0974737722_02_WRI-R1_M013,5298,2,974737722,M,13.1,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5298_0974737722_02_WRI-R1_M013.png,2
+5816_1321036488_02_WRI-R1_M011,5816,2,1321036488,M,11.6,R,1,,23r-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5816_1321036488_02_WRI-R1_M011.png,2
+2629_0841272193_03_WRI-R1_M012,2629,3,841272193,M,12.3,R,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2629_0841272193_03_WRI-R1_M012.png,2
+5464_0531813869_01_WRI-L1_M013,5464,1,531813869,M,13.8,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5464_0531813869_01_WRI-L1_M013.png,2
+3840_0634895542_01_WRI-R1_F010,3840,1,634895542,F,10.3,R,1,,23-M/3.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3840_0634895542_01_WRI-R1_F010.png,2
+3673_0631041239_01_WRI-R1_M010,3673,1,631041239,M,10.5,R,1,,23r-M/3.1; 23u-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3673_0631041239_01_WRI-R1_M010.png,2
+1600_0301554297_05_WRI-R1_M014,1600,5,301554297,M,14.1,R,1,1.0,,,1.0,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1600_0301554297_05_WRI-R1_M014.png,2
+3170_1122363874_01_WRI-L1_M010,3170,1,1122363874,M,10.9,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3170_1122363874_01_WRI-L1_M010.png,2
+3048_1117099510_02_WRI-L1_M014,3048,2,1117099510,M,14.3,L,1,,23r-E/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3048_1117099510_02_WRI-L1_M014.png,2
+5660_1090324121_01_WRI-R1_M014,5660,1,1090324121,M,14.0,R,1,,23r-E/2.1; 23u-E/7,1.0,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5660_1090324121_01_WRI-R1_M014.png,2
+4742_0793556268_01_WRI-L1_M013,4742,1,793556268,M,13.2,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4742_0793556268_01_WRI-L1_M013.png,2
+0400_0424607172_01_WRI-R1_M011,400,1,424607172,M,11.3,R,1,,,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0400_0424607172_01_WRI-R1_M011.png,2
+1474_0298582740_02_WRI-R1_M014,1474,2,298582740,M,14.3,R,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1474_0298582740_02_WRI-R1_M014.png,2
+1547_1318873309_01_WRI-L1_F012,1547,1,1318873309,F,12.8,L,1,1.0,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1547_1318873309_01_WRI-L1_F012.png,2
+5977_0830895700_01_WRI-R1_F013,5977,1,830895700,F,13.9,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5977_0830895700_01_WRI-R1_F013.png,2
+0355_1178426709_01_WRI-R1_M014,355,1,1178426709,M,14.9,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0355_1178426709_01_WRI-R1_M014.png,2
+3958_1127671137_01_WRI-L1_M011,3958,1,1127671137,M,11.5,L,1,,23r-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3958_1127671137_01_WRI-L1_M011.png,2
+0472_0541554828_01_WRI-L1_F012,472,1,541554828,F,12.9,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0472_0541554828_01_WRI-L1_F012.png,2
+1767_0154453047_01_WRI-R1_M011,1767,1,154453047,M,11.2,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1767_0154453047_01_WRI-R1_M011.png,2
+5922_0905499082_02_WRI-L1_F012,5922,2,905499082,F,12.3,L,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5922_0905499082_02_WRI-L1_F012.png,2
+4528_0878934430_01_WRI-L1_M012,4528,1,878934430,M,12.3,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4528_0878934430_01_WRI-L1_M012.png,2
+1693_0381617910_01_WRI-L1_M013,1693,1,381617910,M,13.0,L,1,1.0,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1693_0381617910_01_WRI-L1_M013.png,2
+4537_0425117412_01_WRI-R1_M010,4537,1,425117412,M,10.0,R,1,1.0,23r-E/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4537_0425117412_01_WRI-R1_M010.png,2
+5018_0674933443_01_WRI-R1_M012,5018,1,674933443,M,12.4,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5018_0674933443_01_WRI-R1_M012.png,2
+4870_0404298790_01_WRI-R1_M012,4870,1,404298790,M,12.9,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4870_0404298790_01_WRI-R1_M012.png,2
+6053_0662743192_01_WRI-R1_M010,6053,1,662743192,M,10.8,R,1,1.0,23-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/6053_0662743192_01_WRI-R1_M010.png,2
+2714_1029075501_01_WRI-L1_M013,2714,1,1029075501,M,13.2,L,1,1.0,23r-E/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2714_1029075501_01_WRI-L1_M013.png,2
+0468_0290300786_02_WRI-R1_M012,468,2,290300786,M,12.7,R,1,,23r-M/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0468_0290300786_02_WRI-R1_M012.png,2
+5931_0732582937_01_WRI-R1_M014,5931,1,732582937,M,14.1,R,1,1.0,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5931_0732582937_01_WRI-R1_M014.png,2
+0747_1244101255_01_WRI-R1_M012,747,1,1244101255,M,12.0,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0747_1244101255_01_WRI-R1_M012.png,2
+4825_0544447052_04_WRI-R1_F013,4825,4,544447052,F,13.4,R,1,,23r-E/2.1; 23u-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4825_0544447052_04_WRI-R1_F013.png,2
+0254_0891615651_01_WRI-L1_F012,254,1,891615651,F,12.4,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0254_0891615651_01_WRI-L1_F012.png,2
+5224_0792937946_06_WRI-R1_M014,5224,6,792937946,M,14.1,R,1,,23r-E/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5224_0792937946_06_WRI-R1_M014.png,2
+2697_1075769689_01_WRI-L1_F013,2697,1,1075769689,F,13.0,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2697_1075769689_01_WRI-L1_F013.png,2
+1700_1141188603_06_WRI-R1_M011,1700,6,1141188603,M,11.9,R,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1700_1141188603_06_WRI-R1_M011.png,2
+1157_1136739456_04_WRI-L1_M012,1157,4,1136739456,M,12.4,L,1,,23r-M/3.1; 23u-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1157_1136739456_04_WRI-L1_M012.png,2
+2344_0690263446_01_WRI-R1_M010,2344,1,690263446,M,10.2,R,1,,23-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2344_0690263446_01_WRI-R1_M010.png,2
+3663_0511324218_02_WRI-R1_M013,3663,2,511324218,M,13.8,R,1,,23r-E/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3663_0511324218_02_WRI-R1_M013.png,2
+3170_1144590196_02_WRI-R1_M011,3170,2,1144590196,M,11.6,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3170_1144590196_02_WRI-R1_M011.png,2
+2263_0616578881_03_WRI-L1_M010,2263,3,616578881,M,10.8,L,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2263_0616578881_03_WRI-L1_M010.png,2
+1244_0501936920_02_WRI-L1_M013,1244,2,501936920,M,13.0,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1244_0501936920_02_WRI-L1_M013.png,2
+5900_1097977847_01_WRI-L1_M012,5900,1,1097977847,M,12.4,L,1,,23-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5900_1097977847_01_WRI-L1_M012.png,2
+3723_0674753070_01_WRI-L1_M011,3723,1,674753070,M,11.0,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3723_0674753070_01_WRI-L1_M011.png,2
+5921_1018350822_02_WRI-R1_F014,5921,2,1018350822,F,14.4,R,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5921_1018350822_02_WRI-R1_F014.png,2
+3269_0870322690_01_WRI-L1_M013,3269,1,870322690,M,13.6,L,1,1.0,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3269_0870322690_01_WRI-L1_M013.png,2
+2615_1192477722_02_WRI-R1_M011,2615,2,1192477722,M,11.8,R,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2615_1192477722_02_WRI-R1_M011.png,2
+5108_0316563560_01_WRI-L1_M010,5108,1,316563560,M,10.9,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5108_0316563560_01_WRI-L1_M010.png,2
+1784_0669256414_01_WRI-L1_F013,1784,1,669256414,F,13.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1784_0669256414_01_WRI-L1_F013.png,2
+2430_0353702896_01_WRI-L1_M012,2430,1,353702896,M,12.6,L,1,1.0,23r-M/2.1; 22u-D/1.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2430_0353702896_01_WRI-L1_M012.png,2
+4610_0627174489_01_WRI-L1_M011,4610,1,627174489,M,11.1,L,1,1.0,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4610_0627174489_01_WRI-L1_M011.png,2
+0299_0451708032_01_WRI-R1_M013,299,1,451708032,M,13.7,R,1,1.0,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0299_0451708032_01_WRI-R1_M013.png,2
+2497_0475949221_01_WRI-R1_F013,2497,1,475949221,F,13.0,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2497_0475949221_01_WRI-R1_F013.png,2
+5622_0591302934_01_WRI-R1_F012,5622,1,591302934,F,12.1,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5622_0591302934_01_WRI-R1_F012.png,2
+2621_0518926122_02_WRI-L1_M011,2621,2,518926122,M,11.0,L,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2621_0518926122_02_WRI-L1_M011.png,2
+4366_0935405647_02_WRI-L1_F010,4366,2,935405647,F,10.1,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4366_0935405647_02_WRI-L1_F010.png,2
+0979_0438007840_01_WRI-L1_M013,979,1,438007840,M,13.9,L,1,1.0,23r-M/3.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0979_0438007840_01_WRI-L1_M013.png,2
+2194_0150270089_01_WRI-R1_M013,2194,1,150270089,M,13.1,R,1,,23r-M/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2194_0150270089_01_WRI-R1_M013.png,2
+1009_1049120294_10_WRI-R1_M013,1009,10,1049120294,M,13.4,R,1,,23r-M/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1009_1049120294_10_WRI-R1_M013.png,2
+1950_0759358046_05_WRI-R1_F012,1950,5,759358046,F,12.7,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1950_0759358046_05_WRI-R1_F012.png,2
+3129_0583068450_01_WRI-R1_F014,3129,1,583068450,F,14.8,R,1,,,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3129_0583068450_01_WRI-R1_F014.png,2
+2724_0867997845_01_WRI-R1_M014,2724,1,867997845,M,14.4,R,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2724_0867997845_01_WRI-R1_M014.png,2
+4572_1199766293_01_WRI-L1_M011,4572,1,1199766293,M,11.0,L,1,,23-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4572_1199766293_01_WRI-L1_M011.png,2
+3174_0578116227_03_WRI-L1_M013,3174,3,578116227,M,13.9,L,1,,23r-M/2.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3174_0578116227_03_WRI-L1_M013.png,2
+1685_1175174261_01_WRI-L1_M013,1685,1,1175174261,M,13.1,L,1,1.0,23r-M/2.1; 23u-E/7,,1.0,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/1685_1175174261_01_WRI-L1_M013.png,2
+5547_0385489063_02_WRI-L1_M012,5547,2,385489063,M,12.4,L,1,,23r-M/3.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5547_0385489063_02_WRI-L1_M012.png,2
+5224_0790376387_01_WRI-R1_M014,5224,1,790376387,M,14.0,R,1,1.0,23r-E/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5224_0790376387_01_WRI-R1_M014.png,2
+3390_0761007684_06_WRI-L1_F014,3390,6,761007684,F,14.0,L,1,,23r-E/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3390_0761007684_06_WRI-L1_F014.png,2
+2122_0991788480_01_WRI-L1_F010,2122,1,991788480,F,10.0,L,1,1.0,23r-M/2.1; 23u-E/7,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2122_0991788480_01_WRI-L1_F010.png,2
+5723_0248151065_01_WRI-R1_F012,5723,1,248151065,F,12.8,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/5723_0248151065_01_WRI-R1_F012.png,2
+0157_1018461170_01_WRI-L1_M013,157,1,1018461170,M,13.0,L,1,,23r-E/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0157_1018461170_01_WRI-L1_M013.png,2
+2964_0925907687_01_WRI-L1_F012,2964,1,925907687,F,12.3,L,1,,23-M/2.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2964_0925907687_01_WRI-L1_F012.png,2
+2602_0746326122_07_WRI-L1_M014,2602,7,746326122,M,14.1,L,1,,23-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2602_0746326122_07_WRI-L1_M014.png,2
+1119_0956027605_04_WRI-R1_M014,1119,4,956027605,M,14.2,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/1119_0956027605_04_WRI-R1_M014.png,2
+0855_1028823432_04_WRI-L1_M014,855,4,1028823432,M,14.2,L,1,,23r-M/3.1; 23u-E/7,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0855_1028823432_04_WRI-L1_M014.png,2
+2034_0617561889_02_WRI-L1_M010,2034,2,617561889,M,10.4,L,1,,23-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2034_0617561889_02_WRI-L1_M010.png,2
+2300_0711528147_01_WRI-L1_M011,2300,1,711528147,M,11.5,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2300_0711528147_01_WRI-L1_M011.png,2
+4037_0881979274_01_WRI-R1_M010,4037,1,881979274,M,10.4,R,1,1.0,23r-M/2.1,,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4037_0881979274_01_WRI-R1_M010.png,2
+3934_0580694027_03_WRI-L1_M010,3934,3,580694027,M,10.2,L,1,,23r-E/2.1; 23u-M/2.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3934_0580694027_03_WRI-L1_M010.png,2
+4208_0832352958_02_WRI-L1_M011,4208,2,832352958,M,11.4,L,1,,22r-D/4.1; 23u-M/3.1,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4208_0832352958_02_WRI-L1_M011.png,2
+2611_0387448101_01_WRI-R1_F011,2611,1,387448101,F,11.7,R,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2611_0387448101_01_WRI-R1_F011.png,2
+4963_0499105262_07_WRI-L1_F010,4963,7,499105262,F,10.4,L,1,1.0,,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part4/4963_0499105262_07_WRI-L1_F010.png,2
+0646_0958450226_04_WRI-L1_F010,646,4,958450226,F,10.4,L,1,1.0,23r-M/2.1,,,,,,0.144,Siemens,0,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0646_0958450226_04_WRI-L1_F010.png,2
+4275_1142916787_02_WRI-L1_M014,4275,2,1142916787,M,14.6,L,1,,23r-M/3.1; 23u-E/7,1.0,,,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/4275_1142916787_02_WRI-L1_M014.png,2
+3011_0274206069_03_WRI-R1_M014,3011,3,274206069,M,14.5,R,1,,23r-E/2.2,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part3/3011_0274206069_03_WRI-R1_M014.png,2
+0901_0388791897_03_WRI-L1_M013,901,3,388791897,M,13.9,L,1,,23-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part1/0901_0388791897_03_WRI-L1_M013.png,2
+2483_0650561372_03_WRI-L1_M010,2483,3,650561372,M,10.4,L,1,,23-M/2.1,,,1.0,1.0,,0.144,Siemens,1,2,/mnt/data/KimJG/ELBOW_test/Kaggle_dataset/images_part2/2483_0650561372_03_WRI-L1_M010.png,2

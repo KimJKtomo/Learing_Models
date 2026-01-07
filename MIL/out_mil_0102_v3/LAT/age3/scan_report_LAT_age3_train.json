@@ -1,0 +1,44 @@
+{
+  "tag": "LAT_age3_train",
+  "csv_path": "out_mil_0102_v3/LAT/age_splits/LAT_age3_train.csv",
+  "n_rows": 1044,
+  "image_exists_rate": 1.0,
+  "label_exists_rate": 1.0,
+  "empty_label_rate": 0.0019157088122605363,
+  "class_counts_all": {
+    "0": 25,
+    "2": 2,
+    "3": 464,
+    "5": 67,
+    "6": 50,
+    "7": 57,
+    "8": 1181
+  },
+  "fracture_class_id": 3,
+  "pos": {
+    "n": 448,
+    "has_fracture_bbox_rate": 1.0,
+    "fracture_bbox_count_mean": 1.0357142857142858,
+    "fracture_bbox_count_p95": 1.0,
+    "miss_rate": 0.0
+  },
+  "neg": {
+    "n": 596,
+    "yolo_fp_rate": 0.0,
+    "fp_bbox_count_mean": 0.0,
+    "fp_bbox_count_p95": 0.0,
+    "has_any_box_rate": 0.9966442953020134,
+    "has_text_box_rate": 0.9949664429530202,
+    "has_other_box_rate": 0.08053691275167785,
+    "text_bbox_count_mean": 1.1433389544688026,
+    "other_bbox_count_mean": 1.1458333333333333
+  },
+  "dup_filstems": {
+    "n_dup_stems": 0,
+    "examples": {}
+  },
+  "notes": [
+    "label path is resolved as YOLO_LABELS_DIR/(filestem(image_path)+.txt)",
+    "class_counts_all includes all class ids in txt; training uses only fracture_class_id"
+  ]
+}

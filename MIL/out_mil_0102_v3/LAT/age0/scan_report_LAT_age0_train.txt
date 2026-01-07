@@ -1,0 +1,11 @@
+[SCAN] LAT_age0_train
+  csv: out_mil_0102_v3/LAT/age_splits/LAT_age0_train.csv
+  rows: 494
+  image_exists_rate: 1.0000
+  label_exists_rate: 1.0000
+  empty_label_rate: 0.0000
+  fracture_class_id: 3
+  pos_n: 350 | pos_has_fracture_bbox_rate: 1.0000 | pos_miss_rate: 0.0000
+  neg_n: 144 | neg_yolo_fp_rate: 0.0000 | neg_has_other_box_rate: 0.0208 | neg_has_text_box_rate: 1.0000
+  dup_filstems: 0
+  class_counts_all (top 20): [(0, 2), (3, 449), (5, 60), (6, 16), (7, 15), (8, 548)]
